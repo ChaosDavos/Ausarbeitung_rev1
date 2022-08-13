@@ -1,0 +1,107 @@
+% !TEXroot=main.tex
+\usepackage{enumitem}
+\usepackage{polyglossia}
+\setmainlanguage[babelshorthands=true]{german}
+\setotherlanguage{english}
+
+%\setkomafont{chapter}{\normalfont\Large\itshape} only koma classes (src...)
+
+%Wichtig: danach
+\usepackage{blindtext}
+\usepackage{float}
+\usepackage{listings}
+
+\usepackage{amsmath}
+\usepackage{mathtools}
+
+\usepackage{graphicx}
+%\usepackage{tabu}
+\usepackage{booktabs}
+\usepackage{multicol}
+\usepackage{amsfonts} 
+
+\usepackage{amssymb}    % Mathematische Symbole
+\usepackage{booktabs}   % Korrekter Tabellensatz
+\usepackage[hang,font={sf,footnotesize},labelfont={footnotesize,bf}]{caption}
+
+\usepackage[% Seitenlayout anzeigen
+left=2.5cm,
+right=2.5cm,
+top=2.5cm,
+bottom=2cm,
+%includeheadfoot
+]{geometry}
+
+%\usepackage{hyperref}
+
+
+
+
+\usepackage[
+detect-all,
+locale=DE,
+binary-units=true,
+range-phrase={\,\dots\,},
+]{siunitx}                % Größen mit Einheiten korrekt darstellen
+\DeclareSIUnit{\Bit}{Bit}
+
+% Hyperref sollte sehr spät eingebunden werden, da es viele
+% Elemente modifiziert
+\usepackage{hyperref}  % Hyperlinks
+\usepackage{color}
+% Farben definieren
+\definecolor{linkblue}{RGB}{0, 0, 100}
+\definecolor{linkblack}{RGB}{0, 0, 0}
+\definecolor{comment}{RGB}{63, 127, 95}
+\definecolor{darkgreen}{RGB}{14, 144, 102}
+\definecolor{darkblue}{RGB}{0,0,168}
+\definecolor{darkred}{RGB}{128,0,0}
+\definecolor{javadoccomment}{RGB}{0,0,240}
+
+% Einstellungen für das Hyperref-Paket
+\hypersetup{
+	colorlinks=true,      % Farbige links verwenden
+	%    allcolors=linkblue,
+	%    allcolors=black,
+	linktoc=all,          % Links im Inhaltsverzeichnis
+	linkcolor=linkblack,  % Querverweise
+	citecolor=linkblack,  % Literaturangaben
+	filecolor=linkblack,  % Dateilinks
+	urlcolor=linkblack,   % URLs
+	pdfstartpage=1
+}
+
+% Makros für typographisch korrekte Abkürzungen
+\newcommand{\zb}[0]{z.\,B.\ }
+\newcommand{\dahe}[0]{d.\,h.\ }
+\newcommand{\ua}[0]{u.\,a.\ }
+% Diese Zusammensetzungen bestehen jeweils aus zwei Wörtern.
+% Daher muss ein Leerzeichen dazwischen stehen. Traditionell
+% wird das durch einen kleinen Abstand realisiert.
+
+\title{Kartierung eines und Navigation in einem Labyrinth}
+\author{\textit{David Siekacz}}
+\date{05. August 2022}
+
+%\subtitle{Die AG-Dokumentation der Feld- Wald und Wiesenbiologie AG beinhaltet Forschungsergebnisse aus dem ganzen Labjahr}
+\titlehead{Hochschule Mannheim}
+\subject{Schriftliche Arbeit}
+\publishers{Betreut durch Prof. Dr. Thomas Ihme}
+%numeric, authortitle
+%\usepackage[style=authoryear, backend=biber]{biblatex}
+\usepackage[defernumbers=true,backend=biber,
+isbn=false,                  % ISBN nicht anzeigen, gleiches geht mit nahezu
+% allen anderen Feldern
+autocite=inline,             % regelt Aussehen für \autocite
+%      inline: Zitat in Klammern (\parancite)
+%      footnote: Zitat in Fußnoten (\footcite)
+%      plain: Zitat direkt ohne Klammern (\cite)
+style=ieee,       % Legt den Stil für die Zitate fest
+%      ieee: Zitate als Zahlen [1]
+%      alphabetic: Zitate als Kürzel und Jahr [Ein05]
+%      authoryear: Zitate Author und Jahr [Einstein (1905)]
+hyperref=true,                  % Hyperlinks für Zitate
+citestyle=numeric-comp,         % Fasst Nummernzitate zusammen [1-7, 10]
+natbib=true                     % Komatibilität zu natbib
+]{biblatex}  
+\addbibresource{literaturreferenzen.bib}

@@ -1,0 +1,16 @@
+\documentclass[titlepage=true]{scrartcl}
+
+\include{header}
+\begin{document}
+	\maketitle
+	\KOMAoptions{titlepage=false}
+	\input{abstract}
+	\newpage
+	\tableofcontents
+	\newpage
+	\input{Inhalt/ros}
+	\input{Inhalt/turtlebot}
+	\input{Inhalt/slam}
+	\input{Inhalt/pathfinding}
+	\printbibliography[heading=bibintoc]
+\end{document}
