@@ -3,7 +3,7 @@
 {
 	\subsection{Definition}
 	{
-		Pathfinding (\textit{engl. Wegfindung}) beschreibt den Prozess der Wegfindung, wobei der kürzestmöglichen Weg von einem Startpunkt zu einem Zielpunkt gefunden werden soll. Dieser Prozess setzt eine Karte der Umgebung (\textit{siehe SLAM}), in welcher ein Weg gefunden werden soll, voraus.
+		Pathfinding (\textit{dt. Wegfindung}) beschreibt den Prozess der Wegfindung, wobei der kürzestmöglichen Weg von einem Startpunkt zu einem Zielpunkt gefunden werden soll. Dieser Prozess setzt eine Karte der Umgebung (\textit{siehe SLAM}), in welcher ein Weg gefunden werden soll, voraus.
 	}
 
 	\subsection{Anwendung in der heutigen Welt}
@@ -80,7 +80,7 @@
 			\label{pic:pathlabheu}
 		\end{figure}
 		
-		\subsection{Coastmap}
+		\subsection{Costmap}
 		{
 			Eine gemessene Karte wird zur Navigation zu einer Coastmap umgewandelt. Diese enthält Daten, welche während  der Kartenerstellung nicht angezeigt, trotzdem aber gesammelt werden. Im Falle einer Coastmap wird nicht nur betrachtet, ob ein Punkt besetzt oder frei ist, sondern auch, wie schwierig es ist, gewisses Terrain zu überqueren. Zwar sind diese Daten in einer ebenen Fläche relativ irrelevant, vor allem aber bei hügeligem Boden sind diese interessanter, weshalb ich dies hier erwähnen wollte. Dies weiteren erhalten Hindernisse einen Radius, welcher von dem Roboter tendenziell vermieden werden sollte, da Kollisionen, u.a. aufgrund der Objektform oder ungenauer Messdaten möglich sein Könnte.
 		}

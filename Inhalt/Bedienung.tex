@@ -1,0 +1,26 @@
+% !TEXroot=main.tex
+\section{Bedienung}
+{
+	Damit der Turtlebot ein Labyrinth kartieren kann, muss dieser sich in diesem Bewegen, um es vollends auszukundschaften. Dazu wird sowohl die Tastatur, als auch alternativ ein Logitech Controller verwendet.
+	
+	\subsection{Steuerung}
+	{
+		Sowohl die Tastatur, als auch der Controller werden an einen PC angeschlossen. Auf die Eingabe der Tastatur kann sofort zugegriffen werden, jedoch ist im Falle des Controllers mehr Aufwand nötig. Im Falle des Ubuntu-Betriebssystems werden die Eingaben eines Controllers in eine Datei geschrieben, auf welche zugegriffen werden kann. Dabei handelt es sich im Falle des Logitech Controllers um die Datei ``/dev/input/js0``.
+	}
+
+	\subsection{Implementierung}
+	{ Um die Daten der Eingabegeräte zu verarbeiten und schlussendlich als Bewegungsrichtung auszugeben, wird die \textit{teleop-Node} verwendet.Im Falle der Tastatur als Eingabegerät kann mit den Befehl 
+		\begin{lstlisting}
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+		\end{lstlisting}
+	die dazugehörige Node starten. Danach kann der Roboter mit den Tasten W,A,X,D nach vorne, links,  hinten oder rechts beschleunigt werden. Die Taste S setzt die Geschwindigkeit in bestimmte Richtungen zurück.
+	\newline
+	Im Falle des Controllers ist ein andere Befehl nötig, welcher mehr Informationen übergibt. Hierbei wird sowohl die Datei, welche die Eingaben des Controllers beinhaltet, sowie die Tastenkonfiguration des Controllers übermittelt.
+	\begin{lstlisting}
+roslaunch teleop_twist_joy teleop.launch 
+joy_dev:="/dev/input/js0" joy_config:="xd3"
+	\end{lstlisting}
+	
+	In beiden Fällen werden die Eingaben in Daten der \textit{cmd\textunderscore vel} - Form umgewandelt, welche universell zur Steuerung von Robotern verwendet werden.
+	}
+}
