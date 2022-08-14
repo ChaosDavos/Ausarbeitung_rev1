@@ -1,15 +1,10 @@
 % !TEXroot=main.tex
 \section{Lokalisierung}
-{
-	\subsection{Costmap}
-	{
-		Eine gemessene Karte wird zur Navigation zu einer Costmap umgewandelt. Diese enthält Daten, welche während  der Kartenerstellung nicht angezeigt, trotzdem aber gesammelt werden. Im Falle einer Costmap wird nicht nur betrachtet, ob ein Punkt besetzt oder frei ist, sondern auch, wie schwierig es ist, gewisses Terrain zu überqueren. Zwar sind diese Daten in einer ebenen Fläche relativ irrelevant, vor allem aber bei hügeligem Boden sind diese interessanter, weshalb ich dies hier erwähnen wollte. Dies weiteren erhalten Hindernisse einen Radius, welcher von dem Roboter tendenziell vermieden werden sollte, da Kollisionen, u.a. aufgrund der Objektform oder ungenauer Messdaten möglich sein Könnte.
-	}
-	
+{	
 	\subsection{Positionierung auf einer Karte}
 	{
 		
-	Um den Roboter Korrekt auf der KArte zu Lokalisieren, wird die Monte-Carlo-Lokalisation verwendet. Als Messpunkte dienen die Daten des LiDAR-Sensors. In der beigefügten Abbildung, wird das vergleichen von Sensordaten und Karte deutlich.
+	Um den Roboter Korrekt auf der Karte zu Lokalisieren, wird die Monte-Carlo-Lokalisation verwendet. Als Messpunkte dienen die Daten des LiDAR-Sensors. In der beigefügten Abbildung, wird das vergleichen von Sensordaten und Karte deutlich.
 		\begin{figure}[H]
 			\centering
 			\includegraphics[height=5cm]{Bilder/costmap_monte_carlo_example.png}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7) (preloaded format=xelatex 2022.8.12)  14 AUG 2022 21:10
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7) (preloaded format=xelatex 2022.8.12)  14 AUG 2022 23:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1506,8 +1506,8 @@ gabenbereiches)
 
 )
 
-Package biblatex Warning: citation 'Programmierung: Ansammmlung von Funktionen 
-(eines Aufgabenbereiches)'
+Package biblatex Warning: citation 'Programmierung: Ansammmlung von wiederverwa
+ndbaren Funktionen (eines Aufgabenbereiches)'
 (biblatex)                was not found at all in the .bbl file,
 (biblatex)                bibliography labels cannot be generated,
 (biblatex)                please correct the citation.
@@ -1642,10 +1642,15 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 [17]
 
-LaTeX Warning: Citation 'Programmierung: Ansammmlung von Funktionen (eines Aufg
-abenbereiches)' on page 18 undefined on input line 56.
+LaTeX Warning: Citation 'Programmierung: Ansammmlung von wiederverwandbaren Fun
+ktionen (eines Aufgabenbereiches)' on page 18 undefined on input line 56.
 
-) (Inhalt/Zusammenfassung.tex)
+
+Overfull \hbox (12.68388pt too wide) in paragraph at lines 56--56
+  [][][][]\TU/lmr/m/n/9 .| 
+ []
+
+) (Inhalt/Zusammenfassung.tex) [18]
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1816,7 +1821,7 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/target}  =>  {english}
 >  {newzealand/variant}  =>  {newzealand}
 >  {newzealand/options}  =>  {variant=newzealand}.
- [18] (main.aux
+ [19] (main.aux
 LaTeX Info: Redefining \rmfamily on input line 19.
 LaTeX Info: Redefining \sffamily on input line 19.
 LaTeX Info: Redefining \ttfamily on input line 19.
@@ -1841,12 +1846,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### simple group (level 1) entered at line 4 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 33098 strings out of 410654
- 716316 string characters out of 2816299
- 1688774 words of memory out of 3000000
- 53750 multiletter control sequences out of 15000+600000
+ 33097 strings out of 410654
+ 716310 string characters out of 2816299
+ 1688812 words of memory out of 3000000
+ 53749 multiletter control sequences out of 15000+600000
  479240 words of font info for 90 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
  108i,9n,122p,10601b,6012s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on main.pdf (18 pages).
+Output written on main.pdf (19 pages).
