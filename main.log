@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7) (preloaded format=xelatex 2022.8.12)  14 AUG 2022 23:08
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7) (preloaded format=xelatex 2022.8.12)  15 AUG 2022 18:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1538,7 +1538,7 @@ LaTeX Info: Redefining \ttfamily on input line 1.
 
  [3] (Inhalt/Einleitung.tex)
 (Inhalt/Grundlagen.tex [4]
-Underfull \hbox (badness 10000) in paragraph at lines 40--42
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
  []
 
@@ -1546,12 +1546,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--42
 File: Bilder/rqt_graph_simplified.png Graphic file (type bmp)
 <Bilder/rqt_graph_simplified.png>
  [6]
+File: Bilder/network_turtlebot.png Graphic file (type bmp)
+<Bilder/network_turtlebot.png>
+
+Overfull \hbox (90.16304pt too wide) in paragraph at lines 85--86
+ [][] 
+ []
+
+[7]
 File: Bilder/turtlebot_3_burger.png Graphic file (type bmp)
 <Bilder/turtlebot_3_burger.png>
- [7]
 File: Bilder/lds_small.png Graphic file (type bmp)
 <Bilder/lds_small.png>
- [8] [9]
+ [8] [9] [10]
 File: Bilder/pathfinding_procedure_1.png Graphic file (type bmp)
 <Bilder/pathfinding_procedure_1.png>
 File: Bilder/pathfinding_procedure_2.png Graphic file (type bmp)
@@ -1561,22 +1568,21 @@ File: Bilder/pathfinding_procedure_3.png Graphic file (type bmp)
 File: Bilder/pathfinding_procedure_4.png Graphic file (type bmp)
 <Bilder/pathfinding_procedure_4.png>
 
-Overfull \hbox (2.43091pt too wide) in paragraph at lines 180--205
+Overfull \hbox (2.43091pt too wide) in paragraph at lines 192--217
 []$[]$ $[]$ 
  []
 
 
-Overfull \hbox (2.43091pt too wide) in paragraph at lines 180--205
+Overfull \hbox (2.43091pt too wide) in paragraph at lines 192--217
 []$ $[]$ 
  []
 
-[10]
 File: Bilder/pathfinding_tiefe1.png Graphic file (type bmp)
 <Bilder/pathfinding_tiefe1.png>
 File: Bilder/pathfinding_tiefe2.png Graphic file (type bmp)
 <Bilder/pathfinding_tiefe2.png>
 
-Overfull \hbox (2.43091pt too wide) in paragraph at lines 213--225
+Overfull \hbox (2.43091pt too wide) in paragraph at lines 225--237
 []$[]$ $[]$ 
  []
 
@@ -1586,7 +1592,7 @@ File: Bilder/pathfinding_laby_heu.png Graphic file (type bmp)
 ) (Inhalt/Loesungskonzept.tex
 File: Bilder/overview_concept.png Graphic file (type bmp)
 <Bilder/overview_concept.png>
-) (Inhalt/Bedienung.tex [12])
+ [12]) (Inhalt/Bedienung.tex [13])
 (Inhalt/Kartierung.tex
 File: Bilder/virtualmap_world_gazebo.png Graphic file (type bmp)
 <Bilder/virtualmap_world_gazebo.png>
@@ -1602,7 +1608,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--21
 
  []
 
-[13] [14]
+[14]
 File: Bilder/mapping_smpl_1.png Graphic file (type bmp)
 <Bilder/mapping_smpl_1.png>
 File: Bilder/mapping_smpl_2.png Graphic file (type bmp)
@@ -1624,33 +1630,41 @@ Overfull \hbox (2.43091pt too wide) in paragraph at lines 55--67
 ) (Inhalt/Lokalisierung.tex
 File: Bilder/costmap_monte_carlo_example.png Graphic file (type bmp)
 <Bilder/costmap_monte_carlo_example.png>
- [15]) (Inhalt/Navigation.tex
+ [15]
+File: Bilder/amcl_clear_pointcloud.png Graphic file (type bmp)
+<Bilder/amcl_clear_pointcloud.png>
+ [16]) (Inhalt/Navigation.tex
+File: Bilder/costmap_overlayed.png Graphic file (type bmp)
+<Bilder/costmap_overlayed.png>
+File: Bilder/costmap_pathplanning.png Graphic file (type bmp)
+<Bilder/costmap_pathplanning.png>
+ [17]
 File: Bilder/overview_move_base.png Graphic file (type bmp)
 <Bilder/overview_move_base.png>
 
-Overfull \hbox (31.64449pt too wide) in paragraph at lines 18--20
+Overfull \hbox (31.64449pt too wide) in paragraph at lines 33--35
  [][] 
  []
 
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 24--28
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--43
 
  []
 
+[18]
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-[17]
 
 LaTeX Warning: Citation 'Programmierung: Ansammmlung von wiederverwandbaren Fun
-ktionen (eines Aufgabenbereiches)' on page 18 undefined on input line 56.
+ktionen (eines Aufgabenbereiches)' on page 19 undefined on input line 71.
 
 
-Overfull \hbox (12.68388pt too wide) in paragraph at lines 56--56
+Overfull \hbox (12.68388pt too wide) in paragraph at lines 71--71
   [][][][]\TU/lmr/m/n/9 .| 
  []
 
-) (Inhalt/Zusammenfassung.tex) [18]
+) (Inhalt/Zusammenfassung.tex) [19]
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1821,7 +1835,7 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/target}  =>  {english}
 >  {newzealand/variant}  =>  {newzealand}
 >  {newzealand/options}  =>  {variant=newzealand}.
- [19] (main.aux
+ [20] (main.aux
 LaTeX Info: Redefining \rmfamily on input line 19.
 LaTeX Info: Redefining \sffamily on input line 19.
 LaTeX Info: Redefining \ttfamily on input line 19.
@@ -1842,16 +1856,16 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  )
 (\end occurred inside a group at level 2)
 
-### simple group (level 2) entered at line 131 ({)
+### simple group (level 2) entered at line 143 ({)
 ### simple group (level 1) entered at line 4 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 33097 strings out of 410654
- 716310 string characters out of 2816299
- 1688812 words of memory out of 3000000
- 53749 multiletter control sequences out of 15000+600000
+ 33135 strings out of 410654
+ 717470 string characters out of 2816299
+ 1733061 words of memory out of 3000000
+ 53783 multiletter control sequences out of 15000+600000
  479240 words of font info for 90 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
  108i,9n,122p,10601b,6012s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on main.pdf (19 pages).
+Output written on main.pdf (20 pages).
