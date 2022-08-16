@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7) (preloaded format=xelatex 2022.8.12)  16 AUG 2022 19:59
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7) (preloaded format=xelatex 2022.8.12)  16 AUG 2022 20:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1545,33 +1545,33 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Info: Redefining \rmfamily on input line 1.
 LaTeX Info: Redefining \sffamily on input line 1.
 LaTeX Info: Redefining \ttfamily on input line 1.
-)
+ [3])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [3] (Inhalt/Einleitung.tex)
-(Inhalt/Grundlagen.tex [4]
-Underfull \hbox (badness 10000) in paragraph at lines 45--47
+ [4] (Inhalt/Einleitung.tex)
+(Inhalt/Grundlagen.tex [5]
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
 
  []
 
-[5]
+[6]
 File: Bilder/rqt_graph_simplified.png Graphic file (type bmp)
 <Bilder/rqt_graph_simplified.png>
- [6]
+ [7]
 File: Bilder/network_turtlebot.png Graphic file (type bmp)
 <Bilder/network_turtlebot.png>
 
-Overfull \hbox (90.16304pt too wide) in paragraph at lines 85--86
+Overfull \hbox (90.16304pt too wide) in paragraph at lines 86--87
  [][] 
  []
 
-[7]
+[8]
 File: Bilder/turtlebot_3_burger.png Graphic file (type bmp)
 <Bilder/turtlebot_3_burger.png>
 File: Bilder/lds_small.png Graphic file (type bmp)
 <Bilder/lds_small.png>
- [8] [9] [10]
+ [9] [10] [11]
 File: Bilder/pathfinding_procedure_1.png Graphic file (type bmp)
 <Bilder/pathfinding_procedure_1.png>
 File: Bilder/pathfinding_procedure_2.png Graphic file (type bmp)
@@ -1581,12 +1581,12 @@ File: Bilder/pathfinding_procedure_3.png Graphic file (type bmp)
 File: Bilder/pathfinding_procedure_4.png Graphic file (type bmp)
 <Bilder/pathfinding_procedure_4.png>
 
-Overfull \hbox (2.43091pt too wide) in paragraph at lines 192--217
+Overfull \hbox (2.43091pt too wide) in paragraph at lines 193--218
 []$[]$ $[]$ 
  []
 
 
-Overfull \hbox (2.43091pt too wide) in paragraph at lines 192--217
+Overfull \hbox (2.43091pt too wide) in paragraph at lines 193--218
 []$ $[]$ 
  []
 
@@ -1595,25 +1595,25 @@ File: Bilder/pathfinding_tiefe1.png Graphic file (type bmp)
 File: Bilder/pathfinding_tiefe2.png Graphic file (type bmp)
 <Bilder/pathfinding_tiefe2.png>
 
-Overfull \hbox (2.43091pt too wide) in paragraph at lines 225--237
+Overfull \hbox (2.43091pt too wide) in paragraph at lines 226--238
 []$[]$ $[]$ 
  []
 
-[11]
+[12]
 File: Bilder/pathfinding_laby_heu.png Graphic file (type bmp)
 <Bilder/pathfinding_laby_heu.png>
 File: Bilder/costmap_overlayed.png Graphic file (type bmp)
 <Bilder/costmap_overlayed.png>
- [12]
+ [13]
 File: Bilder/costmap_pathplanning.png Graphic file (type bmp)
 <Bilder/costmap_pathplanning.png>
 File: Bilder/overview_move_base.png Graphic file (type bmp)
 <Bilder/overview_move_base.png>
- [13]) (Inhalt/Loesungskonzept.tex
+ [14]) (Inhalt/Loesungskonzept.tex
 File: Bilder/overview_concept.png Graphic file (type bmp)
 <Bilder/overview_concept.png>
- [14]) (Inhalt/Bedienung.tex
-[15]) (Inhalt/Kartierung.tex
+) (Inhalt/Bedienung.tex [15])
+(Inhalt/Kartierung.tex
 File: Bilder/virtualmap_world_gazebo.png Graphic file (type bmp)
 <Bilder/virtualmap_world_gazebo.png>
 File: Bilder/virtualmap_world_rviz.png Graphic file (type bmp)
@@ -1628,7 +1628,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--21
 
  []
 
-[16]
+[16] [17]
 File: Bilder/mapping_smpl_1.png Graphic file (type bmp)
 <Bilder/mapping_smpl_1.png>
 File: Bilder/mapping_smpl_2.png Graphic file (type bmp)
@@ -1647,21 +1647,20 @@ Overfull \hbox (2.43091pt too wide) in paragraph at lines 55--67
 []$[]$ $[]$ 
  []
 
-[17]
+
 Overfull \hbox (11.2296pt too wide) in paragraph at lines 75--76
 [][][][][][][][][][][][][][] 
  []
 
-) (Inhalt/Lokalisierung.tex
+[18]) (Inhalt/Lokalisierung.tex
 File: Bilder/costmap_monte_carlo_example.png Graphic file (type bmp)
 <Bilder/costmap_monte_carlo_example.png>
- [18]
 File: Bilder/amcl_clear_pointcloud.png Graphic file (type bmp)
 <Bilder/amcl_clear_pointcloud.png>
-) (Inhalt/Navigation.tex
+ [19]) (Inhalt/Navigation.tex
 File: Bilder/rviz_navgoal_small.png Graphic file (type bmp)
 <Bilder/rviz_navgoal_small.png>
- [19] [20]
+ [20] [21]
 File: Bilder/rosgraph_frontier_full.png Graphic file (type bmp)
 <Bilder/rosgraph_frontier_full.png>
 
@@ -1669,7 +1668,10 @@ Overfull \hbox (6.80563pt too wide) in paragraph at lines 33--34
  [][] 
  []
 
-[21]) (Inhalt/Zusammenfassung.tex)
+[22]) (Inhalt/Zusammenfassung.tex [23
+
+
+])
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1840,10 +1842,7 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/target}  =>  {english}
 >  {newzealand/variant}  =>  {newzealand}
 >  {newzealand/options}  =>  {variant=newzealand}.
- [22
-
-
-] (main.aux
+ [24] (main.aux
 LaTeX Info: Redefining \rmfamily on input line 19.
 LaTeX Info: Redefining \sffamily on input line 19.
 LaTeX Info: Redefining \ttfamily on input line 19.
@@ -1856,18 +1855,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  )
 (\end occurred inside a group at level 4)
 
-### simple group (level 4) entered at line 186 ({)
-### simple group (level 3) entered at line 174 ({)
-### simple group (level 2) entered at line 143 ({)
+### simple group (level 4) entered at line 187 ({)
+### simple group (level 3) entered at line 175 ({)
+### simple group (level 2) entered at line 144 ({)
 ### simple group (level 1) entered at line 4 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 33204 strings out of 410654
- 720677 string characters out of 2816299
- 1640304 words of memory out of 3000000
- 53846 multiletter control sequences out of 15000+600000
+ 33208 strings out of 410654
+ 720701 string characters out of 2816299
+ 1640307 words of memory out of 3000000
+ 53850 multiletter control sequences out of 15000+600000
  479232 words of font info for 89 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
- 108i,9n,122p,10601b,6036s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 108i,9n,122p,10601b,6042s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on main.pdf (22 pages).
+Output written on main.pdf (24 pages).

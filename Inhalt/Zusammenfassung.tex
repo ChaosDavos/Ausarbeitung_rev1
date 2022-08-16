@@ -1,4 +1,25 @@
 % !TEXroot=main.tex
+
+\section{Probleme}
+{
+	Natürlich gab es während des Projektes auch immer wieder Probleme und Hindernisse, auf welche im Folgenden eingegangen werden.
+	\subsection{Bedienung}
+	{
+		Bei der Bedienung war vor allem die fehlende Dokumentation für den Controller und dessen Einstellung das Problem. Dadurch musste erst herausgefunden werden, auf welchem Datenstream (js0) dieser zu finden war. Gleichzeitig war die Konfiguration etwas kontraintuitiv, da die Steuerung durch zwei verschiedene Joysticks geschieht und gleichzeitig ein Knopf gedrückt werden muss.
+	}
+
+	\subsection{Kartierung}
+	{
+		Im Falle der Kartierung war vor allem das finden passender Parameter das Problem. Dabei war die Karte oft ungenau und es gab Verbindungen zwischen Pfaden, welche in Realität keine haben (die Karte verschmilzt). Dies musste durch die schnelle Aktualisierungsrate ausgeglichen werden.
+		Ein weiteres kleineres Hindernis war, herauszufinden, dass Studenten den LiDAR-Sensor falsch herum auf den Roboter gebaut haben, wodurch der Roboter sich auf der Karte in eine andere Richtung bewegt hatte, als er in der Realität tat. Dies führte zu seltsamen Karten, konnte aber schlussendlich durch das Umbauen (Drehen) des LiDAR-Sensors gelöst werden.
+	}
+	
+	\subsection{LiDAR-Sensor}
+	{
+		Der LiDAR-Sensor ist hat teilweise einige Probleme. Durch Reflexion des ausgestrahlten Lichtes im richtigen, meist steilen Winkel entstehen Punkte auf der Karte, welche als Hindernisse erkannt werden, aber keine sind. Diese finden sich auch auf der Costmap wieder. Da die Fehlmessungen konstant reproduzierbar waren und damit nicht zufällig erfolgten, konnte das Problem teilweise gelöst werden. Indem die Auflösung der Costmap verringert wurde. Dadurch beschreibt ein  Pixel einen größeren Bereich in der echten Welt und kleine Fehlmessungen werden ausradiert, da die benachbarten Punkte nicht als Hindernis erkannt werden. Trotzdem kam es immer wieder zu solchen Reflexionsfehlern.
+	}
+
+}
 \newpage
 \section{Zusammenfassung}
 {

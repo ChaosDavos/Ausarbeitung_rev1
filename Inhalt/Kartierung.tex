@@ -28,7 +28,7 @@
 		
 		Während des Anfangs des Projektes wurde der Roboter noch mit Hilfe der Tastatur an einem Rechner oder über einen Logitech-Controller Gesteuert. Danach wurde daraus jedoch eine autonome Navigation, meist in Richtung von Gebieten, welche weniger erforscht sind. 
 		
-		Die Kartierung erfolgt mit Hilfe des \textit{GMapping}-Algorithmus. Dieser schaut sich die gescannten Laserdaten der \emph{sensor\textunderscore msgs/LaserScan}-Topic an und veröffentlicht drei Datenarten.
+		Die Kartierung erfolgt mit Hilfe des \emph{GMapping}-Algorithmus. Dieser schaut sich die gescannten Laserdaten der \emph{sensor\textunderscore msgs/LaserScan}-Topic an und veröffentlicht drei Datenarten.
 		\begin{enumerate}
 			\item ein "Occupancy-Grid": 2D-Karte. Jeder Ort (Pixel) hat einen Ja/Nein Wert, welcher beschreibt, ob sich an der Position ein Objekt befindet oder nicht
 			\item Entropie (Sicherheit über die Erkenntnis verschiedener Punkte: unsichere Punkte werden wahrscheinlicher geändert)
