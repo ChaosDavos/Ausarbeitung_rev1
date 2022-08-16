@@ -1,7 +1,7 @@
 % !TEXroot=main.tex
 \section{Kartierung}
 {
-	
+	Bevor der Roboter sich autonom Bewegen kann, muss dieser seine Umgebung erst kennen. Dafür wird von dieser eine KArte erstellt, auf welche später zurückgegriffen werden kann.
 	\subsection{Kartierung mit Hilfe des LiDAR-Sensors}
 	{
 		Die Kartierung erfolgt mithilfe der Daten des LiDAR-Sensors. Dieser misst den Abstand des Roboters in verschiedene Richtungen punktartig. \newline  
@@ -28,14 +28,14 @@
 		
 		Während des Anfangs des Projektes wurde der Roboter noch mit Hilfe der Tastatur an einem Rechner oder über einen Logitech-Controller Gesteuert. Danach wurde daraus jedoch eine autonome Navigation, meist in Richtung von Gebieten, welche weniger erforscht sind. 
 		
-		Die Kartierung erfolgt mit Hilfe des \textit{gmapping}-Algorithmus. Dieser schaut sich die gescannten Laserdaten der \textit{sensor\textunderscore msgs/LaserScan}-Topic an und veröffentlicht drei Datenarten.
+		Die Kartierung erfolgt mit Hilfe des \textit{GMapping}-Algorithmus. Dieser schaut sich die gescannten Laserdaten der \emph{sensor\textunderscore msgs/LaserScan}-Topic an und veröffentlicht drei Datenarten.
 		\begin{enumerate}
 			\item ein "Occupancy-Grid": 2D-Karte. Jeder Ort (Pixel) hat einen Ja/Nein Wert, welcher beschreibt, ob sich an der Position ein Objekt befindet oder nicht
 			\item Entropie (Sicherheit über die Erkenntnis verschiedener Punkte: unsichere Punkte werden wahrscheinlicher geändert)
 			\item Metadaten über die Karte.
 		\end{enumerate}
 		
-		Durch die Kartierung dieses Algorithmus wird aus den einzelnen Laserscan-Daten nun eine Karte. Dies wird in den unteren Abbildungen dargestellt. Hierbei handelt es sich um die Kartierung der in Abbildung 4 gezeigten Umgebung. Schwarze Punkte wurden als Hindernis erkannt, graue Stellen sind hindernisfreie Punkte. Die durch den LiDAR-Sensor gemessenen Punkte werden in grüner Farbe über die Karte gelegt. In Abbildung 7 und 8 ist zu erkenne, dass schwarze Punkte nicht direkt mit Gemessenen Punkten des Lasers (grün) übereinstimmen. Dies liegt zum einen darin, dass die Berechnung der Karte Zeit benötigt, weshalb die Punkte noch verarbeitet werden, sowie daran, dass die Aktualisierungsrate der Karte eingestellt werden kann. Während intuitiv eine schnelle Aktualisierungsrate sinnvoll wirkt, ist eine zu schnelle Rate nachteilig, da viel Leistung benötigt wird und mehr Fehler gemacht werden, da ungenaue Messpunkte zu schnellen Schlüssen auf der Karte führen. Bei einer längeren Zeitdauer zwischen Kartenaktualisierungen können nämlich mehr gemessene Punkte in Betracht gemessen werden.
+		Durch die Kartierung dieses Algorithmus wird aus den einzelnen Laserscan-Daten nun eine Karte. Dies wird in den unteren Abbildungen dargestellt. Hierbei handelt es sich um die Kartierung der in Abbildung 4 gezeigten Umgebung. Schwarze Punkte wurden als Hindernis erkannt, graue Stellen sind hindernisfreie Punkte. Die durch den LiDAR-Sensor gemessenen Punkte werden in grüner Farbe über die Karte gelegt. In Abbildung 7 und 8 ist zu erkenne, dass schwarze Punkte nicht direkt mit Gemessenen Punkten des Lasers (grün) übereinstimmen. Dies liegt zum einen darin, dass die Berechnung der Karte Zeit benötigt, weshalb die Punkte noch verarbeitet werden, sowie daran, dass die Aktualisierungsrate der Karte eingestellt werden kann. Während intuitiv eine schnelle Aktualisierungsrate sinnvoll wirkt, ist eine zu hohe Rate nachteilig, da viel Leistung benötigt wird und mehr Fehler gemacht werden, da ungenaue Messpunkte zu schnellen Schlüssen auf der Karte führen. Bei einer längeren Zeitdauer zwischen Kartenaktualisierungen können nämlich mehr gemessene Punkte in Betracht gemessen werden.
 		
 		\begin{figure}[H]
 			\begin{minipage}{0.5\textwidth}
@@ -68,5 +68,25 @@
 	}
 	\subsection{Implementierung}
 	{
+		Um die Kartierung vor zu nehmen, wird der GMapping, welcher bereits ausgeführt wurde, genutzt. Jedoch müssen einige Parameter angepasst werden, da die Kartierung innerhalb des Labyrinths auf vergleichbar kleinem Raum geschieht. Zuerst wird die Frequenz erhöht, sodass die Karte häufiger, basierend auf den neuen Messdaten, geändert bzw. erneuert wird. Dies wird durch den Parameter $map_update_interval$ bestimmt, welcher auf $6$ gesetzt wird (niedrigerer Wert = niedrigere Periodendauer, woraus eine höhere Frequenz folgt). Gleichzeitig ist zu beachten, dass sich der Roboter auch schnell drehen bzw. bewegen kann. Deshalb müssen Parameter angepasst werden, welche beschreiben, nach welcher zurückgelegten Distanz bzw. Drehung die Karte ebenfalls erneuert wird. Beide Werte werden vergleichsweise niedrig gesetzt, damit die Karte, vor allem bei höheren Geschwindigkeiten oder Drehungen, häufig aktualisiert wird, damit inkorrekte Neupositionierungen oder gar falsche Annahmen über die Umgebung verhindert werden. Dazu wird der $linearUpdate$ Parameter auf $0.05$ und der $angularUpdate$ Parameter auf $0.05$ gesetzt.
+		
+		Durch den unteren Befehl wird der \emph{GMapping} - Node gestartet.
+		\begin{lstlisting}
+roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+		\end{lstlisting}
+
+	}	
+
+	\subsection{Karten speichern}
+	{
+		Um einen Raum nicht jedes mal erneut kartieren zu müssen, können Karten auch gespeichert werden. Dafür wird das \emph{map\tus server} - Paket verwendet. Dieses ermöglicht durch den Befehl 
+		\begin{lstlisting}
+rosrun map_server map_saver -f *path*
+		\end{lstlisting}
+	das Speichern von erstellten Karten, wobei \emph{*path*} durch Speicherort und Dateinamen ausgetauscht werden muss. Mit Hilfe des Befehls
+		\begin{lstlisting}
+rosrun map_server map_server  *path.yaml*
+		\end{lstlisting}
+	kann eine Karte veröffentlicht (gepublished) werden, woraufhin sie für andere Nodes frei verfügbar ist. Auch hier muss \emph{*path*} druch den Pfad der Datei, gefolgt von dem Dateinamen mit der \emph{.yaml} - Endung, ersetzt werden.
 	}
 }

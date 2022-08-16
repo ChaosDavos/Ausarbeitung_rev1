@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7) (preloaded format=xelatex 2022.8.12)  16 AUG 2022 19:13
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7) (preloaded format=xelatex 2022.8.12)  16 AUG 2022 19:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -680,12 +680,34 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
 \c@subfigure=\count337
 \c@subtable=\count338
-) (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+) (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count339
+\rotFPtop=\skip73
+\rotFPbot=\skip74
+\rot@float@box=\box107
+\rot@mess@toks=\toks29
+)
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
+
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)) (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2022-08-08 v3.1.6 A comprehensive (SI) units package
 \l__siunitx_angle_tmp_dim=\dimen262
-\l__siunitx_angle_marker_box=\box107
-\l__siunitx_angle_unit_box=\box108
-\l__siunitx_compound_count_int=\count339
+\l__siunitx_angle_marker_box=\box108
+\l__siunitx_angle_unit_box=\box109
+\l__siunitx_compound_count_int=\count340
 
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
 ns.sty
@@ -708,25 +730,25 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
 ))
-\l__siunitx_number_exponent_fixed_int=\count340
-\l__siunitx_number_min_decimal_int=\count341
-\l__siunitx_number_min_integer_int=\count342
-\l__siunitx_number_round_precision_int=\count343
-\l__siunitx_number_group_first_int=\count344
-\l__siunitx_number_group_size_int=\count345
-\l__siunitx_number_group_minimum_int=\count346
-\l__siunitx_table_tmp_box=\box109
+\l__siunitx_number_exponent_fixed_int=\count341
+\l__siunitx_number_min_decimal_int=\count342
+\l__siunitx_number_min_integer_int=\count343
+\l__siunitx_number_round_precision_int=\count344
+\l__siunitx_number_group_first_int=\count345
+\l__siunitx_number_group_size_int=\count346
+\l__siunitx_number_group_minimum_int=\count347
+\l__siunitx_table_tmp_box=\box110
 \l__siunitx_table_tmp_dim=\dimen263
 \l__siunitx_table_column_width_dim=\dimen264
-\l__siunitx_table_integer_box=\box110
-\l__siunitx_table_decimal_box=\box111
-\l__siunitx_table_before_box=\box112
-\l__siunitx_table_after_box=\box113
+\l__siunitx_table_integer_box=\box111
+\l__siunitx_table_decimal_box=\box112
+\l__siunitx_table_before_box=\box113
+\l__siunitx_table_after_box=\box114
 \l__siunitx_table_before_dim=\dimen265
 \l__siunitx_table_carry_dim=\dimen266
-\l__siunitx_unit_tmp_int=\count347
-\l__siunitx_unit_position_int=\count348
-\l__siunitx_unit_total_int=\count349
+\l__siunitx_unit_tmp_int=\count348
+\l__siunitx_unit_position_int=\count349
+\l__siunitx_unit_total_int=\count350
 
 Package siunitx Info: Option "detect-all" has been deprecated in this release.
 (siunitx)             
@@ -744,12 +766,12 @@ Package siunitx Warning: Option "binary-units" has been removed in this
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen267
-\ar@mcellbox=\box114
+\ar@mcellbox=\box115
 \extrarowheight=\dimen268
-\NC@list=\toks29
-\extratabsurround=\skip73
-\backup@length=\skip74
-\ar@cellbox=\box115
+\NC@list=\toks30
+\extratabsurround=\skip75
+\backup@length=\skip76
+\ar@cellbox=\box116
 ))
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2022-06-20 v7.00s Hypertext links for LaTeX
@@ -788,11 +810,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count350
+\c@section@level=\count351
 )
 \@linkdim=\dimen269
-\Hy@linkcounter=\count351
-\Hy@pagecounter=\count352
+\Hy@linkcounter=\count352
+\Hy@pagecounter=\count353
  (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2022-06-20 v7.00s Hyperref: PDFDocEncoding definition (HO)
 ) (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
@@ -801,7 +823,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count353
+\Hy@SavedSpaceFactor=\count354
  (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2022-06-20 v7.00s Hyperref: PDF Unicode definition (HO)
 )
@@ -812,7 +834,7 @@ Package hyperref Info: Plain pages OFF on input line 4177.
 Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4408.
-\c@Hy@tempcnt=\count354
+\c@Hy@tempcnt=\count355
 
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
@@ -829,7 +851,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count355
+\Fld@menulength=\count356
 \Field@Width=\dimen271
 \Fld@charsize=\dimen272
 Package hyperref Info: Hyper figures OFF on input line 6024.
@@ -839,16 +861,12 @@ Package hyperref Info: backreferencing OFF on input line 6039.
 Package hyperref Info: Link coloring OFF on input line 6044.
 Package hyperref Info: Link coloring with OCG OFF on input line 6049.
 Package hyperref Info: PDF/A mode OFF on input line 6054.
-
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
-Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
-package with kernel methods
-)
-\Hy@abspage=\count356
-\c@Item=\count357
-\c@Hfootnote=\count358
+\Hy@abspage=\count357
+\c@Item=\count358
+\c@Hfootnote=\count359
 )
 Package hyperref Info: Driver (autodetected): hxetex.
+
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
 File: hxetex.def 2022-06-20 v7.00s Hyperref driver for XeTeX
 
@@ -857,11 +875,11 @@ ty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box116
-\c@Hy@AnnotLevel=\count359
-\HyField@AnnotCount=\count360
-\Fld@listcount=\count361
-\c@bookmark@seq@number=\count362
+\pdfm@box=\box117
+\c@Hy@AnnotLevel=\count360
+\HyField@AnnotCount=\count361
+\Fld@listcount=\count362
+\c@bookmark@seq@number=\count363
 
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
@@ -879,7 +897,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip75
+\Hy@SectionHShift=\skip77
 )
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
@@ -891,78 +909,75 @@ Package color Info: Driver file: xetex.def on input line 149.
 
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex-dev/graphics\mathcolor.
 ltx))
-Package hyperref Info: Option `colorlinks' set `true' on input line 72.
+Package hyperref Info: Option `colorlinks' set `true' on input line 75.
 
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2022/07/12 v3.18b programmable bibliographies (PK/MW)
 
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count363
+\lrq@indent=\count364
 
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-)
-\c@tabx@nest=\count364
-\c@listtotal=\count365
-\c@listcount=\count366
-\c@liststart=\count367
-\c@liststop=\count368
-\c@citecount=\count369
-\c@citetotal=\count370
-\c@multicitecount=\count371
-\c@multicitetotal=\count372
-\c@instcount=\count373
-\c@maxnames=\count374
-\c@minnames=\count375
-\c@maxitems=\count376
-\c@minitems=\count377
-\c@citecounter=\count378
-\c@maxcitecounter=\count379
-\c@savedcitecounter=\count380
-\c@uniquelist=\count381
-\c@uniquename=\count382
-\c@refsection=\count383
-\c@refsegment=\count384
-\c@maxextratitle=\count385
-\c@maxextratitleyear=\count386
-\c@maxextraname=\count387
-\c@maxextradate=\count388
-\c@maxextraalpha=\count389
-\c@abbrvpenalty=\count390
-\c@highnamepenalty=\count391
-\c@lownamepenalty=\count392
-\c@maxparens=\count393
-\c@parenlevel=\count394
-\blx@tempcnta=\count395
-\blx@tempcntb=\count396
-\blx@tempcntc=\count397
-\c@blx@maxsection=\count398
-\blx@maxsegment@0=\count399
-\blx@notetype=\count400
-\blx@parenlevel@text=\count401
-\blx@parenlevel@foot=\count402
-\blx@sectionciteorder@0=\count403
-\blx@sectionciteorderinternal@0=\count404
-\blx@entrysetcounter=\count405
-\blx@biblioinstance=\count406
-\labelnumberwidth=\skip76
-\labelalphawidth=\skip77
-\biblabelsep=\skip78
-\bibitemsep=\skip79
-\bibnamesep=\skip80
-\bibinitsep=\skip81
-\bibparsep=\skip82
-\bibhang=\skip83
+\c@tabx@nest=\count365
+\c@listtotal=\count366
+\c@listcount=\count367
+\c@liststart=\count368
+\c@liststop=\count369
+\c@citecount=\count370
+\c@citetotal=\count371
+\c@multicitecount=\count372
+\c@multicitetotal=\count373
+\c@instcount=\count374
+\c@maxnames=\count375
+\c@minnames=\count376
+\c@maxitems=\count377
+\c@minitems=\count378
+\c@citecounter=\count379
+\c@maxcitecounter=\count380
+\c@savedcitecounter=\count381
+\c@uniquelist=\count382
+\c@uniquename=\count383
+\c@refsection=\count384
+\c@refsegment=\count385
+\c@maxextratitle=\count386
+\c@maxextratitleyear=\count387
+\c@maxextraname=\count388
+\c@maxextradate=\count389
+\c@maxextraalpha=\count390
+\c@abbrvpenalty=\count391
+\c@highnamepenalty=\count392
+\c@lownamepenalty=\count393
+\c@maxparens=\count394
+\c@parenlevel=\count395
+\blx@tempcnta=\count396
+\blx@tempcntb=\count397
+\blx@tempcntc=\count398
+\c@blx@maxsection=\count399
+\blx@maxsegment@0=\count400
+\blx@notetype=\count401
+\blx@parenlevel@text=\count402
+\blx@parenlevel@foot=\count403
+\blx@sectionciteorder@0=\count404
+\blx@sectionciteorderinternal@0=\count405
+\blx@entrysetcounter=\count406
+\blx@biblioinstance=\count407
+\labelnumberwidth=\skip78
+\labelalphawidth=\skip79
+\biblabelsep=\skip80
+\bibitemsep=\skip81
+\bibnamesep=\skip82
+\bibinitsep=\skip83
+\bibparsep=\skip84
+\bibhang=\skip85
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language79
-\c@mincomprange=\count407
-\c@maxcomprange=\count408
-\c@mincompwidth=\count409
+\c@mincomprange=\count408
+\c@maxcomprange=\count409
+\c@mincompwidth=\count410
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -973,88 +988,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count410
-\c@savedafterword=\count411
-\c@annotator=\count412
-\c@savedannotator=\count413
-\c@author=\count414
-\c@savedauthor=\count415
-\c@bookauthor=\count416
-\c@savedbookauthor=\count417
-\c@commentator=\count418
-\c@savedcommentator=\count419
-\c@editor=\count420
-\c@savededitor=\count421
-\c@editora=\count422
-\c@savededitora=\count423
-\c@editorb=\count424
-\c@savededitorb=\count425
-\c@editorc=\count426
-\c@savededitorc=\count427
-\c@foreword=\count428
-\c@savedforeword=\count429
-\c@holder=\count430
-\c@savedholder=\count431
-\c@introduction=\count432
-\c@savedintroduction=\count433
-\c@namea=\count434
-\c@savednamea=\count435
-\c@nameb=\count436
-\c@savednameb=\count437
-\c@namec=\count438
-\c@savednamec=\count439
-\c@translator=\count440
-\c@savedtranslator=\count441
-\c@shortauthor=\count442
-\c@savedshortauthor=\count443
-\c@shorteditor=\count444
-\c@savedshorteditor=\count445
-\c@labelname=\count446
-\c@savedlabelname=\count447
-\c@institution=\count448
-\c@savedinstitution=\count449
-\c@lista=\count450
-\c@savedlista=\count451
-\c@listb=\count452
-\c@savedlistb=\count453
-\c@listc=\count454
-\c@savedlistc=\count455
-\c@listd=\count456
-\c@savedlistd=\count457
-\c@liste=\count458
-\c@savedliste=\count459
-\c@listf=\count460
-\c@savedlistf=\count461
-\c@location=\count462
-\c@savedlocation=\count463
-\c@organization=\count464
-\c@savedorganization=\count465
-\c@origlocation=\count466
-\c@savedoriglocation=\count467
-\c@origpublisher=\count468
-\c@savedorigpublisher=\count469
-\c@publisher=\count470
-\c@savedpublisher=\count471
-\c@language=\count472
-\c@savedlanguage=\count473
-\c@origlanguage=\count474
-\c@savedoriglanguage=\count475
-\c@pageref=\count476
-\c@savedpageref=\count477
-\shorthandwidth=\skip84
-\shortjournalwidth=\skip85
-\shortserieswidth=\skip86
-\shorttitlewidth=\skip87
-\shortauthorwidth=\skip88
-\shorteditorwidth=\skip89
-\locallabelnumberwidth=\skip90
-\locallabelalphawidth=\skip91
-\localshorthandwidth=\skip92
-\localshortjournalwidth=\skip93
-\localshortserieswidth=\skip94
-\localshorttitlewidth=\skip95
-\localshortauthorwidth=\skip96
-\localshorteditorwidth=\skip97
+\c@afterword=\count411
+\c@savedafterword=\count412
+\c@annotator=\count413
+\c@savedannotator=\count414
+\c@author=\count415
+\c@savedauthor=\count416
+\c@bookauthor=\count417
+\c@savedbookauthor=\count418
+\c@commentator=\count419
+\c@savedcommentator=\count420
+\c@editor=\count421
+\c@savededitor=\count422
+\c@editora=\count423
+\c@savededitora=\count424
+\c@editorb=\count425
+\c@savededitorb=\count426
+\c@editorc=\count427
+\c@savededitorc=\count428
+\c@foreword=\count429
+\c@savedforeword=\count430
+\c@holder=\count431
+\c@savedholder=\count432
+\c@introduction=\count433
+\c@savedintroduction=\count434
+\c@namea=\count435
+\c@savednamea=\count436
+\c@nameb=\count437
+\c@savednameb=\count438
+\c@namec=\count439
+\c@savednamec=\count440
+\c@translator=\count441
+\c@savedtranslator=\count442
+\c@shortauthor=\count443
+\c@savedshortauthor=\count444
+\c@shorteditor=\count445
+\c@savedshorteditor=\count446
+\c@labelname=\count447
+\c@savedlabelname=\count448
+\c@institution=\count449
+\c@savedinstitution=\count450
+\c@lista=\count451
+\c@savedlista=\count452
+\c@listb=\count453
+\c@savedlistb=\count454
+\c@listc=\count455
+\c@savedlistc=\count456
+\c@listd=\count457
+\c@savedlistd=\count458
+\c@liste=\count459
+\c@savedliste=\count460
+\c@listf=\count461
+\c@savedlistf=\count462
+\c@location=\count463
+\c@savedlocation=\count464
+\c@organization=\count465
+\c@savedorganization=\count466
+\c@origlocation=\count467
+\c@savedoriglocation=\count468
+\c@origpublisher=\count469
+\c@savedorigpublisher=\count470
+\c@publisher=\count471
+\c@savedpublisher=\count472
+\c@language=\count473
+\c@savedlanguage=\count474
+\c@origlanguage=\count475
+\c@savedoriglanguage=\count476
+\c@pageref=\count477
+\c@savedpageref=\count478
+\shorthandwidth=\skip86
+\shortjournalwidth=\skip87
+\shortserieswidth=\skip88
+\shorttitlewidth=\skip89
+\shortauthorwidth=\skip90
+\shorteditorwidth=\skip91
+\locallabelnumberwidth=\skip92
+\locallabelalphawidth=\skip93
+\localshorthandwidth=\skip94
+\localshortjournalwidth=\skip95
+\localshortserieswidth=\skip96
+\localshorttitlewidth=\skip97
+\localshortauthorwidth=\skip98
+\localshorteditorwidth=\skip99
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 
@@ -1070,19 +1085,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
-\c@textcitecount=\count478
-\c@textcitetotal=\count479
-\c@textcitemaxnames=\count480
-\c@biburlbigbreakpenalty=\count481
-\c@biburlbreakpenalty=\count482
-\c@biburlnumpenalty=\count483
-\c@biburlucpenalty=\count484
-\c@biburllcpenalty=\count485
+\c@textcitecount=\count479
+\c@textcitetotal=\count480
+\c@textcitemaxnames=\count481
+\c@biburlbigbreakpenalty=\count482
+\c@biburlbreakpenalty=\count483
+\c@biburlnumpenalty=\count484
+\c@biburlucpenalty=\count485
+\c@biburllcpenalty=\count486
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count486
+\c@smartand=\count487
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -1115,8 +1130,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
 bx
 File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count487
-\c@bbx:relatedtotal=\count488
+\c@bbx:relatedcount=\count488
+\c@bbx:relatedtotal=\count489
 ))))
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
@@ -1124,10 +1139,10 @@ Package biblatex Info: ... file 'numeric-comp.cbx' found.
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-co
 mp.cbx
 File: numeric-comp.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count489
-\c@cbx@tempcntb=\count490
-\c@cbx@tempcntc=\count491
-\c@cbx@tempcntd=\count492
+\c@cbx@tempcnta=\count490
+\c@cbx@tempcntb=\count491
+\c@cbx@tempcntc=\count492
+\c@cbx@tempcntd=\count493
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1159,8 +1174,8 @@ Package biblatex Info: ... and expl3
 Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
 
 )))
-\@quotelevel=\count493
-\@quotereset=\count494
+\@quotelevel=\count494
+\@quotereset=\count495
  (main.aux
 LaTeX Info: Redefining \rmfamily on input line 19.
 LaTeX Info: Redefining \sffamily on input line 19.
@@ -1376,9 +1391,10 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/target}  =>  {english}
 >  {newzealand/variant}  =>  {newzealand}
 >  {newzealand/options}  =>  {variant=newzealand}.
-\c@lstlisting=\count495
+\c@lstlisting=\count496
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
+Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 *geometry* driver: auto-detecting
@@ -1451,7 +1467,7 @@ Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-dvipdfm.de
 f
 File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
-\BKM@id=\count496
+\BKM@id=\count497
 ))
 Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
@@ -1631,17 +1647,29 @@ Overfull \hbox (2.43091pt too wide) in paragraph at lines 55--67
 []$[]$ $[]$ 
  []
 
+[17]
+Overfull \hbox (11.2296pt too wide) in paragraph at lines 75--76
+[][][][][][][][][][][][][][] 
+ []
+
 ) (Inhalt/Lokalisierung.tex
 File: Bilder/costmap_monte_carlo_example.png Graphic file (type bmp)
 <Bilder/costmap_monte_carlo_example.png>
- [17]
+ [18]
 File: Bilder/amcl_clear_pointcloud.png Graphic file (type bmp)
 <Bilder/amcl_clear_pointcloud.png>
- [18]) (Inhalt/Navigation.tex
+) (Inhalt/Navigation.tex
 File: Bilder/rviz_navgoal_small.png Graphic file (type bmp)
 <Bilder/rviz_navgoal_small.png>
-)
-(Inhalt/Zusammenfassung.tex [19])
+ [19] [20]
+File: Bilder/rosgraph_frontier_full.png Graphic file (type bmp)
+<Bilder/rosgraph_frontier_full.png>
+
+Overfull \hbox (6.80563pt too wide) in paragraph at lines 33--34
+ [][] 
+ []
+
+[21]) (Inhalt/Zusammenfassung.tex)
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1812,21 +1840,16 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/target}  =>  {english}
 >  {newzealand/variant}  =>  {newzealand}
 >  {newzealand/options}  =>  {variant=newzealand}.
- [20] (main.aux
+ [22
+
+
+] (main.aux
 LaTeX Info: Redefining \rmfamily on input line 19.
 LaTeX Info: Redefining \sffamily on input line 19.
 LaTeX Info: Redefining \ttfamily on input line 19.
 )
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -1839,12 +1862,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### simple group (level 1) entered at line 4 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 33053 strings out of 410654
- 717436 string characters out of 2816299
- 1637403 words of memory out of 3000000
- 53705 multiletter control sequences out of 15000+600000
+ 33204 strings out of 410654
+ 720677 string characters out of 2816299
+ 1640304 words of memory out of 3000000
+ 53846 multiletter control sequences out of 15000+600000
  479232 words of font info for 89 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
  108i,9n,122p,10601b,6036s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on main.pdf (20 pages).
+Output written on main.pdf (22 pages).

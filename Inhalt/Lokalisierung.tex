@@ -1,10 +1,11 @@
 % !TEXroot=main.tex
 \section{Lokalisierung}
 {	
+	Sollte man eine eine Karte nutzen, auf welcher der Roboter seine Position noch nicht kennt, so muss der Roboter erst Lokalisiert werden, damit diese auf der Karte verordnet werden kann.
 	\subsection{Positionierung auf einer Karte}
 	{
 		
-	Um den Roboter Korrekt auf der Karte zu Lokalisieren, wird die Monte-Carlo-Lokalisation verwendet. Als Messpunkte dienen die Daten des LiDAR-Sensors. In der beigefügten Abbildung, wird das vergleichen von Sensordaten und Karte deutlich.
+	Für diesen Prozess wird die Monte-Carlo-Lokalisation verwendet. Als Messpunkte dienen die Daten des LiDAR-Sensors. In der beigefügten Abbildung, wird das vergleichen von Sensordaten und Karte deutlich.
 		\begin{figure}[H]
 			\centering
 			\includegraphics[height=5cm]{Bilder/costmap_monte_carlo_example.png}
@@ -27,6 +28,6 @@
 
 	\subsection{Implementierung}
 	{
-		Die Lokalisierung erfolgt durch das \textit{amcl}-Packet. Dabei handlet es sich um einen Monte-Carlo-Algorithmus. Dieses verwendet die Laserscan-Daten unter der ROS-Topic \textit{/scan}. Diese Topic beschreibt die Laserscan-Daten welche gemessen werden. Ausgegeben wird die \textit{/particlecloud} Topic, welche die möglichen Positionen beschreibt, welche von der Navigation (siehe Abschnitt 7) genutzt werden.
+		Die Lokalisierung erfolgt durch das \textit{amcl}-Packet. Dabei handlet es sich um einen Monte-Carlo-Algorithmus. Dieses verwendet die Laserscan-Daten unter der ROS-Topic \emph{/scan}. Diese Topic beschreibt die Laserscan-Daten welche gemessen werden. Ausgegeben wird die \textit{/particlecloud} Topic, welche die möglichen Positionen beschreibt, welche von der Navigation (siehe Abschnitt 7) genutzt werden.
 	}
 }

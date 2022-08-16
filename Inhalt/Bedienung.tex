@@ -5,11 +5,11 @@
 	
 	\subsection{Steuerung}
 	{
-		Sowohl die Tastatur, als auch der Controller werden an einen PC angeschlossen. Auf die Eingabe der Tastatur kann sofort zugegriffen werden, jedoch ist im Falle des Controllers mehr Aufwand nötig. Im Falle des Ubuntu-Betriebssystems werden die Eingaben eines Controllers in eine Datei geschrieben, auf welche zugegriffen werden kann. Dabei handelt es sich im Falle des Logitech Controllers um die Datei ``/dev/input/js0``.
+		Sowohl die Tastatur, als auch der Controller werden an einen PC angeschlossen. Auf die Eingabe der Tastatur kann sofort zugegriffen werden, jedoch ist im Falle des Controllers mehr Aufwand nötig. Im Falle des Ubuntu-Betriebssystems werden die Eingaben eines Controllers in eine Datei geschrieben, auf welche zugegriffen werden kann. Dabei handelt es sich im Falle des Logitech Controllers um die Datei ``\emph{/dev/input/js0}``.
 	}
 
 	\subsection{Implementierung}
-	{ Um die Daten der Eingabegeräte zu verarbeiten und schlussendlich als Bewegungsrichtung auszugeben, wird die \textit{teleop-Node} verwendet.Im Falle der Tastatur als Eingabegerät kann mit den Befehl 
+	{ Um die Daten der Eingabegeräte zu verarbeiten und schlussendlich als Bewegungsrichtung auszugeben, wird die \emph{teleop-Node} verwendet.Im Falle der Tastatur als Eingabegerät kann mit den Befehl 
 		\begin{lstlisting}
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 		\end{lstlisting}
@@ -21,6 +21,6 @@ roslaunch teleop_twist_joy teleop.launch
 joy_dev:="/dev/input/js0" joy_config:="xd3"
 	\end{lstlisting}
 	
-	In beiden Fällen werden die Eingaben in Daten dIW\textit{geometry\textunderscore msgs/Twist} - Form umgewandelt, welche in ROS  oft zur Steuerung von Robotern verwendet wird.
+	In beiden Fällen werden die Eingaben in Daten der \emph{geometry\textunderscore msgs/Twist} - Form umgewandelt, welche in ROS oft zur Steuerung von Robotern verwendet wird.
 	}
 }
