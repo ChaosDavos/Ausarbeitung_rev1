@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7) (preloaded format=xelatex 2022.8.12)  16 AUG 2022 20:29
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7) (preloaded format=xelatex 2022.8.12)  16 AUG 2022 21:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1177,501 +1177,118 @@ Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
 \@quotelevel=\count494
 \@quotereset=\count495
  (main.aux
-LaTeX Info: Redefining \rmfamily on input line 19.
-LaTeX Info: Redefining \sffamily on input line 19.
-LaTeX Info: Redefining \ttfamily on input line 19.
-)
-\openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
-.
+! Critical Package polyglossia Error: The language * is not loaded. You should
+(polyglossia)                         load it.
 
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
-File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-Package scrbase Info: activating german \abstractname on input line 4.
-Package scrbase Info: activating german \partname on input line 4.
-Package scrbase Info: activating german \figurename on input line 4.
-Package scrbase Info: activating german \tablename on input line 4.
-Package scrbase Info: activating german \contentsname on input line 4.
-Package scrbase Info: activating german \listfigurename on input line 4.
-Package scrbase Info: activating german \listtablename on input line 4.
-Package scrbase Info: activating german \refname on input line 4.
-Package scrbase Info: activating german \indexname on input line 4.
+Type <return> to continue.
+ ...                                              
+                                                  
+l.21 \selectlanguage *{*}
+                         
 
-Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
-(fontspec)             this).
+LaTeX does not know anything more about this error, sorry.
 
-\symlegacymaths=\mathgroup6
-LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 4.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 4.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 4.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 4.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 4.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 4.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 4.
-LaTeX Font Info:    Redeclaring math accent \check on input line 4.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 4.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 4.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 4.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 4.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 4.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 4.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 4.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 4.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 4.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 4.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 4.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 4.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 4.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 4.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 4.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 4.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 4.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 4.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 4.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 4.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 4.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 4.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 4.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 4.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 4.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 4.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 4.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 4.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 4.
-The property list \__xpg_alias contains the pairs (without outer braces):
->  {latex/target}  =>  {latex}
->  {german/target}  =>  {german}
->  {de/target}  =>  {german}
->  {de-CH/target}  =>  {german}
->  {de-CH/variant}  =>  {swiss}
->  {de-CH/options}  =>  {variant=swiss,spelling=new}
->  {de-AT/target}  =>  {german}
->  {de-AT/variant}  =>  {austrian}
->  {de-AT/options}  =>  {variant=austrian,spelling=new}
->  {de-DE/target}  =>  {german}
->  {de-DE/variant}  =>  {german}
->  {de-DE/options}  =>  {variant=german,spelling=new}
->  {de-Latf-CH/target}  =>  {german}
->  {de-Latf-CH/variant}  =>  {swiss}
->  {de-Latf-CH/options}  =>  {variant=swiss,spelling=new,script=blackletter}
->  {de-Latf-DE/target}  =>  {german}
->  {de-Latf-DE/variant}  =>  {german}
->  {de-Latf-DE/options}  =>  {variant=german,spelling=new,script=blackletter}
->  {de-Latf-AT/target}  =>  {german}
->  {de-Latf-AT/variant}  =>  {austrian}
->  {de-Latf-AT/options}  => 
-{variant=austrian,spelling=new,script=blackletter}
->  {de-AT-1901/target}  =>  {german}
->  {de-AT-1901/variant}  =>  {austrian}
->  {de-AT-1901/options}  =>  {variant=austrian,spelling=old}
->  {de-CH-1996/target}  =>  {german}
->  {de-CH-1996/variant}  =>  {swiss}
->  {de-CH-1996/options}  =>  {variant=swiss,spelling=new}
->  {de-AT-1996/target}  =>  {german}
->  {de-AT-1996/variant}  =>  {austrian}
->  {de-AT-1996/options}  =>  {variant=austrian,spelling=new}
->  {de-DE-1901/target}  =>  {german}
->  {de-DE-1901/variant}  =>  {german}
->  {de-DE-1901/options}  =>  {variant=german,spelling=old}
->  {de-Latf-CH-1901/target}  =>  {german}
->  {de-Latf-CH-1901/variant}  =>  {swiss}
->  {de-Latf-CH-1901/options}  => 
-{variant=swiss,spelling=old,script=blackletter}
->  {de-CH-1901/target}  =>  {german}
->  {de-CH-1901/variant}  =>  {swiss}
->  {de-CH-1901/options}  =>  {variant=swiss,spelling=old}
->  {de-Latf-AT-1901/target}  =>  {german}
->  {de-Latf-AT-1901/variant}  =>  {austrian}
->  {de-Latf-AT-1901/options}  => 
-{variant=austrian,spelling=old,script=blackletter}
->  {de-Latf-CH-1996/target}  =>  {german}
->  {de-Latf-CH-1996/variant}  =>  {swiss}
->  {de-Latf-CH-1996/options}  => 
-{variant=swiss,spelling=new,script=blackletter}
->  {de-Latf/target}  =>  {german}
->  {de-Latf/options}  =>  {script=blackletter}
->  {de-DE-1996/target}  =>  {german}
->  {de-DE-1996/variant}  =>  {german}
->  {de-DE-1996/options}  =>  {variant=german,spelling=new}
->  {de-Latf-DE-1901/target}  =>  {german}
->  {de-Latf-DE-1901/variant}  =>  {german}
->  {de-Latf-DE-1901/options}  => 
-{variant=german,spelling=old,script=blackletter}
->  {de-Latf-DE-1996/target}  =>  {german}
->  {de-Latf-DE-1996/variant}  =>  {german}
->  {de-Latf-DE-1996/options}  => 
-{variant=german,spelling=new,script=blackletter}
->  {de-Latf-AT-1996/target}  =>  {german}
->  {de-Latf-AT-1996/variant}  =>  {austrian}
->  {de-Latf-AT-1996/options}  => 
-{variant=austrian,spelling=new,script=blackletter}
->  {austrian/target}  =>  {german}
->  {austrian/variant}  =>  {austrian}
->  {austrian/options}  =>  {variant=austrian,spelling=old}
->  {naustrian/target}  =>  {german}
->  {naustrian/variant}  =>  {austrian}
->  {naustrian/options}  =>  {variant=austrian,spelling=new}
->  {germanb/target}  =>  {german}
->  {germanb/variant}  =>  {german}
->  {germanb/options}  =>  {variant=german,spelling=old}
->  {ngerman/target}  =>  {german}
->  {ngerman/variant}  =>  {german}
->  {ngerman/options}  =>  {variant=german,spelling=new}
->  {swissgerman/target}  =>  {german}
->  {swissgerman/variant}  =>  {swiss}
->  {swissgerman/options}  =>  {variant=swiss,spelling=old}
->  {nswissgerman/target}  =>  {german}
->  {nswissgerman/variant}  =>  {swiss}
->  {nswissgerman/options}  =>  {variant=swiss,spelling=new}
->  {english/target}  =>  {english}
->  {en/target}  =>  {english}
->  {en-AU/target}  =>  {english}
->  {en-AU/variant}  =>  {australian}
->  {en-AU/options}  =>  {variant=australian}
->  {en-CA/target}  =>  {english}
->  {en-CA/variant}  =>  {canadian}
->  {en-CA/options}  =>  {variant=canadian}
->  {en-GB/target}  =>  {english}
->  {en-GB/variant}  =>  {british}
->  {en-GB/options}  =>  {variant=british}
->  {en-NZ/target}  =>  {english}
->  {en-NZ/variant}  =>  {newzealand}
->  {en-NZ/options}  =>  {variant=newzealand}
->  {en-US/target}  =>  {english}
->  {en-US/variant}  =>  {us}
->  {en-US/options}  =>  {variant=us}
->  {american/target}  =>  {english}
->  {american/variant}  =>  {us}
->  {american/options}  =>  {variant=us}
->  {australian/target}  =>  {english}
->  {australian/variant}  =>  {australian}
->  {australian/options}  =>  {variant=australian}
->  {british/target}  =>  {english}
->  {british/variant}  =>  {british}
->  {british/options}  =>  {variant=british}
->  {canadian/target}  =>  {english}
->  {canadian/variant}  =>  {canadian}
->  {canadian/options}  =>  {variant=canadian}
->  {newzealand/target}  =>  {english}
->  {newzealand/variant}  =>  {newzealand}
->  {newzealand/options}  =>  {variant=newzealand}.
-\c@lstlisting=\count496
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: hyperref package is loaded.
-Package caption Info: rotating package is loaded.
-Package caption Info: End \AtBeginDocument code.
+Try typing <return> to proceed.
+If that doesn't work, type X <return> to quit.
 
-*geometry* driver: auto-detecting
-*geometry* detected driver: xetex
-*geometry* verbose mode - [ preamble ] result:
-* driver: xetex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(71.13188pt, 455.24417pt, 71.13188pt)
-* v-part:(T,H,B)=(71.13188pt, 717.00955pt, 56.9055pt)
-* \paperwidth=597.50793pt
-* \paperheight=845.04694pt
-* \textwidth=455.24417pt
-* \textheight=717.00955pt
-* \oddsidemargin=-1.1381pt
-* \evensidemargin=-1.1381pt
-* \topmargin=-38.53812pt
-* \headheight=17.0pt
-* \headsep=20.40001pt
-* \topskip=11.0pt
-* \footskip=47.6pt
-* \marginparwidth=59.7508pt
-* \marginparsep=12.8401pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+Reading the current file 'main' will stop.
 
 
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
-slations-basic-dictionary-english.trsl
-File: translations-basic-dictionary-english.trsl (english translation file `tra
-nslations-basic-dictionary')
-)
-Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 4.
 
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
-slations-basic-dictionary-german.trsl
-File: translations-basic-dictionary-german.trsl (german translation file `trans
-lations-basic-dictionary')
-)
-Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `german'. on input line 4.
-Package hyperref Info: Link coloring ON on input line 4.
- (main.out) (main.out)
-\@outlinefile=\write4
-\openout4 = `main.out'.
+! Package polyglossia Error: Unknown direction .
 
-Class scrartcl Info: loading recommended package `bookmark'.
-(scrartcl)           Using `bookmark' together with `hyperref' is recommended,
-(scrartcl)           because of handling of possible bookmark level gaps.
-(scrartcl)           You can avoid loading `bookmark' with KOMA-Script option
-(scrartcl)           `bookmarkpackage=false' before \begin{document} and
-(scrartcl)           you can avoid this message adding:
-(scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 4.
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \selectlanguage *{*}
+                         
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
 
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
-Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
-
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-dvipdfm.de
-f
-File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
-\BKM@id=\count497
-))
-Package biblatex Info: Trying to load language 'american'...
-Package biblatex Info: ... file 'american.lbx' found.
-
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\american.l
-bx
-File: american.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lb
-x
-File: english.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lb
-x
-File: english.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
-))
-Package biblatex Info: Trying to load language 'ngerman'...
-Package biblatex Info: ... file 'ngerman.lbx' found.
-
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\ngerman.lb
-x
-File: ngerman.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
-Package biblatex Info: Trying to load language 'german'...
-Package biblatex Info: ... file 'german.lbx' found.
-
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
-File: german.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load language 'german'...
-Package biblatex Info: ... file 'german.lbx' found.
-
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
-File: german.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
-))
-Package biblatex Info: XeTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `main.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Programmierung: Ansammmlung von Funktionen (eines Auf
-gabenbereiches)
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
-Package biblatex Info: Reference section=0 on input line 4.
-Package biblatex Info: Reference segment=0 on input line 4.
-LaTeX Info: Redefining \rmfamily on input line 4.
-LaTeX Info: Redefining \sffamily on input line 4.
-LaTeX Info: Redefining \ttfamily on input line 4.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
- (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
-
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-[1
-
-] (abstract.tex) [2] (main.toc
-LaTeX Info: Redefining \rmfamily on input line 1.
-LaTeX Info: Redefining \sffamily on input line 1.
-LaTeX Info: Redefining \ttfamily on input line 1.
- [3])
-\tf@toc=\write5
-\openout5 = `main.toc'.
-
- [4] (Inhalt/Einleitung.tex)
-(Inhalt/Grundlagen.tex [5]
-Underfull \hbox (badness 10000) in paragraph at lines 46--48
-
- []
-
-[6]
-File: Bilder/rqt_graph_simplified.png Graphic file (type bmp)
-<Bilder/rqt_graph_simplified.png>
- [7]
-File: Bilder/network_turtlebot.png Graphic file (type bmp)
-<Bilder/network_turtlebot.png>
-
-Overfull \hbox (90.16304pt too wide) in paragraph at lines 86--87
- [][] 
- []
-
-[8]
-File: Bilder/turtlebot_3_burger.png Graphic file (type bmp)
-<Bilder/turtlebot_3_burger.png>
-File: Bilder/lds_small.png Graphic file (type bmp)
-<Bilder/lds_small.png>
- [9] [10] [11]
-File: Bilder/pathfinding_procedure_1.png Graphic file (type bmp)
-<Bilder/pathfinding_procedure_1.png>
-File: Bilder/pathfinding_procedure_2.png Graphic file (type bmp)
-<Bilder/pathfinding_procedure_2.png>
-File: Bilder/pathfinding_procedure_3.png Graphic file (type bmp)
-<Bilder/pathfinding_procedure_3.png>
-File: Bilder/pathfinding_procedure_4.png Graphic file (type bmp)
-<Bilder/pathfinding_procedure_4.png>
-
-Overfull \hbox (2.43091pt too wide) in paragraph at lines 193--218
-[]$[]$ $[]$ 
- []
+! Undefined control sequence.
+<argument> \setnonlatin 
+                        
+l.21 \selectlanguage *{*}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (2.43091pt too wide) in paragraph at lines 193--218
-[]$ $[]$ 
- []
+! Package etoolbox Error: \rmfamily undefined.
 
-File: Bilder/pathfinding_tiefe1.png Graphic file (type bmp)
-<Bilder/pathfinding_tiefe1.png>
-File: Bilder/pathfinding_tiefe2.png Graphic file (type bmp)
-<Bilder/pathfinding_tiefe2.png>
-
-Overfull \hbox (2.43091pt too wide) in paragraph at lines 226--238
-[]$[]$ $[]$ 
- []
-
-[12]
-File: Bilder/pathfinding_laby_heu.png Graphic file (type bmp)
-<Bilder/pathfinding_laby_heu.png>
-File: Bilder/costmap_overlayed.png Graphic file (type bmp)
-<Bilder/costmap_overlayed.png>
- [13]
-File: Bilder/costmap_pathplanning.png Graphic file (type bmp)
-<Bilder/costmap_pathplanning.png>
-File: Bilder/overview_move_base.png Graphic file (type bmp)
-<Bilder/overview_move_base.png>
- [14]) (Inhalt/Loesungskonzept.tex
-File: Bilder/overview_concept.png Graphic file (type bmp)
-<Bilder/overview_concept.png>
-) (Inhalt/Bedienung.tex [15])
-(Inhalt/Kartierung.tex
-File: Bilder/virtualmap_world_gazebo.png Graphic file (type bmp)
-<Bilder/virtualmap_world_gazebo.png>
-File: Bilder/virtualmap_world_rviz.png Graphic file (type bmp)
-<Bilder/virtualmap_world_rviz.png>
-
-Overfull \hbox (2.43091pt too wide) in paragraph at lines 9--21
-[]$[]$ $[]$ 
- []
+See the etoolbox package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \selectlanguage *{*}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--21
+! Package etoolbox Error: \sffamily undefined.
 
- []
-
-[16] [17]
-File: Bilder/mapping_smpl_1.png Graphic file (type bmp)
-<Bilder/mapping_smpl_1.png>
-File: Bilder/mapping_smpl_2.png Graphic file (type bmp)
-<Bilder/mapping_smpl_2.png>
-
-Overfull \hbox (2.43091pt too wide) in paragraph at lines 41--53
-[]$[]$ $[]$ 
- []
-
-File: Bilder/mapping_smpl_3.png Graphic file (type bmp)
-<Bilder/mapping_smpl_3.png>
-File: Bilder/mapping_smpl_4.png Graphic file (type bmp)
-<Bilder/mapping_smpl_4.png>
-
-Overfull \hbox (2.43091pt too wide) in paragraph at lines 55--67
-[]$[]$ $[]$ 
- []
+See the etoolbox package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \selectlanguage *{*}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-Overfull \hbox (11.2296pt too wide) in paragraph at lines 75--76
-[][][][][][][][][][][][][][] 
- []
+! Package etoolbox Error: \ttfamily undefined.
 
-[18]) (Inhalt/Lokalisierung.tex
-File: Bilder/costmap_monte_carlo_example.png Graphic file (type bmp)
-<Bilder/costmap_monte_carlo_example.png>
-File: Bilder/amcl_clear_pointcloud.png Graphic file (type bmp)
-<Bilder/amcl_clear_pointcloud.png>
- [19]) (Inhalt/Navigation.tex
-File: Bilder/rviz_navgoal_small.png Graphic file (type bmp)
-<Bilder/rviz_navgoal_small.png>
- [20] [21]
-File: Bilder/rosgraph_frontier_full.png Graphic file (type bmp)
-<Bilder/rosgraph_frontier_full.png>
-
-Overfull \hbox (6.80563pt too wide) in paragraph at lines 33--34
- [][] 
- []
-
-[22]) (Inhalt/Zusammenfassung.tex [23
+See the etoolbox package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \selectlanguage *{*}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-])
+Package polyglossia Warning: \@font@rm  is not defined on input line 21.
+
+
+Package polyglossia Warning: \@language  is not defined on input line 21.
+
+
+! Package polyglossia Error: language  is not loaded. Please load it before usi
+ng it..
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \selectlanguage *{*}
+                         
+(That was another \errmessage.)
+
+
+! Package polyglossia Error: Could not retrieve key frenchspacing for language 
+"".
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \selectlanguage *{*}
+                         
+(That was another \errmessage.)
+
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1725,148 +1342,144 @@ braces):
 >  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {english/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
-The property list \__xpg_alias contains the pairs (without outer braces):
->  {latex/target}  =>  {latex}
->  {german/target}  =>  {german}
->  {de/target}  =>  {german}
->  {de-CH/target}  =>  {german}
->  {de-CH/variant}  =>  {swiss}
->  {de-CH/options}  =>  {variant=swiss,spelling=new}
->  {de-AT/target}  =>  {german}
->  {de-AT/variant}  =>  {austrian}
->  {de-AT/options}  =>  {variant=austrian,spelling=new}
->  {de-DE/target}  =>  {german}
->  {de-DE/variant}  =>  {german}
->  {de-DE/options}  =>  {variant=german,spelling=new}
->  {de-Latf-CH/target}  =>  {german}
->  {de-Latf-CH/variant}  =>  {swiss}
->  {de-Latf-CH/options}  =>  {variant=swiss,spelling=new,script=blackletter}
->  {de-Latf-DE/target}  =>  {german}
->  {de-Latf-DE/variant}  =>  {german}
->  {de-Latf-DE/options}  =>  {variant=german,spelling=new,script=blackletter}
->  {de-Latf-AT/target}  =>  {german}
->  {de-Latf-AT/variant}  =>  {austrian}
->  {de-Latf-AT/options}  => 
-{variant=austrian,spelling=new,script=blackletter}
->  {de-AT-1901/target}  =>  {german}
->  {de-AT-1901/variant}  =>  {austrian}
->  {de-AT-1901/options}  =>  {variant=austrian,spelling=old}
->  {de-CH-1996/target}  =>  {german}
->  {de-CH-1996/variant}  =>  {swiss}
->  {de-CH-1996/options}  =>  {variant=swiss,spelling=new}
->  {de-AT-1996/target}  =>  {german}
->  {de-AT-1996/variant}  =>  {austrian}
->  {de-AT-1996/options}  =>  {variant=austrian,spelling=new}
->  {de-DE-1901/target}  =>  {german}
->  {de-DE-1901/variant}  =>  {german}
->  {de-DE-1901/options}  =>  {variant=german,spelling=old}
->  {de-Latf-CH-1901/target}  =>  {german}
->  {de-Latf-CH-1901/variant}  =>  {swiss}
->  {de-Latf-CH-1901/options}  => 
-{variant=swiss,spelling=old,script=blackletter}
->  {de-CH-1901/target}  =>  {german}
->  {de-CH-1901/variant}  =>  {swiss}
->  {de-CH-1901/options}  =>  {variant=swiss,spelling=old}
->  {de-Latf-AT-1901/target}  =>  {german}
->  {de-Latf-AT-1901/variant}  =>  {austrian}
->  {de-Latf-AT-1901/options}  => 
-{variant=austrian,spelling=old,script=blackletter}
->  {de-Latf-CH-1996/target}  =>  {german}
->  {de-Latf-CH-1996/variant}  =>  {swiss}
->  {de-Latf-CH-1996/options}  => 
-{variant=swiss,spelling=new,script=blackletter}
->  {de-Latf/target}  =>  {german}
->  {de-Latf/options}  =>  {script=blackletter}
->  {de-DE-1996/target}  =>  {german}
->  {de-DE-1996/variant}  =>  {german}
->  {de-DE-1996/options}  =>  {variant=german,spelling=new}
->  {de-Latf-DE-1901/target}  =>  {german}
->  {de-Latf-DE-1901/variant}  =>  {german}
->  {de-Latf-DE-1901/options}  => 
-{variant=german,spelling=old,script=blackletter}
->  {de-Latf-DE-1996/target}  =>  {german}
->  {de-Latf-DE-1996/variant}  =>  {german}
->  {de-Latf-DE-1996/options}  => 
-{variant=german,spelling=new,script=blackletter}
->  {de-Latf-AT-1996/target}  =>  {german}
->  {de-Latf-AT-1996/variant}  =>  {austrian}
->  {de-Latf-AT-1996/options}  => 
-{variant=austrian,spelling=new,script=blackletter}
->  {austrian/target}  =>  {german}
->  {austrian/variant}  =>  {austrian}
->  {austrian/options}  =>  {variant=austrian,spelling=old}
->  {naustrian/target}  =>  {german}
->  {naustrian/variant}  =>  {austrian}
->  {naustrian/options}  =>  {variant=austrian,spelling=new}
->  {germanb/target}  =>  {german}
->  {germanb/variant}  =>  {german}
->  {germanb/options}  =>  {variant=german,spelling=old}
->  {ngerman/target}  =>  {german}
->  {ngerman/variant}  =>  {german}
->  {ngerman/options}  =>  {variant=german,spelling=new}
->  {swissgerman/target}  =>  {german}
->  {swissgerman/variant}  =>  {swiss}
->  {swissgerman/options}  =>  {variant=swiss,spelling=old}
->  {nswissgerman/target}  =>  {german}
->  {nswissgerman/variant}  =>  {swiss}
->  {nswissgerman/options}  =>  {variant=swiss,spelling=new}
->  {english/target}  =>  {english}
->  {en/target}  =>  {english}
->  {en-AU/target}  =>  {english}
->  {en-AU/variant}  =>  {australian}
->  {en-AU/options}  =>  {variant=australian}
->  {en-CA/target}  =>  {english}
->  {en-CA/variant}  =>  {canadian}
->  {en-CA/options}  =>  {variant=canadian}
->  {en-GB/target}  =>  {english}
->  {en-GB/variant}  =>  {british}
->  {en-GB/options}  =>  {variant=british}
->  {en-NZ/target}  =>  {english}
->  {en-NZ/variant}  =>  {newzealand}
->  {en-NZ/options}  =>  {variant=newzealand}
->  {en-US/target}  =>  {english}
->  {en-US/variant}  =>  {us}
->  {en-US/options}  =>  {variant=us}
->  {american/target}  =>  {english}
->  {american/variant}  =>  {us}
->  {american/options}  =>  {variant=us}
->  {australian/target}  =>  {english}
->  {australian/variant}  =>  {australian}
->  {australian/options}  =>  {variant=australian}
->  {british/target}  =>  {english}
->  {british/variant}  =>  {british}
->  {british/options}  =>  {variant=british}
->  {canadian/target}  =>  {english}
->  {canadian/variant}  =>  {canadian}
->  {canadian/options}  =>  {variant=canadian}
->  {newzealand/target}  =>  {english}
->  {newzealand/variant}  =>  {newzealand}
->  {newzealand/options}  =>  {variant=newzealand}.
- [24] (main.aux
-LaTeX Info: Redefining \rmfamily on input line 19.
-LaTeX Info: Redefining \sffamily on input line 19.
-LaTeX Info: Redefining \ttfamily on input line 19.
-)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package logreq Info: Writing requests to 'main.run.xml'.
-\openout1 = `main.run.xml'.
+<recently read> }
+                 
+l.21 \selectlanguage *{*}
+                         
 
- )
-(\end occurred inside a group at level 4)
 
-### simple group (level 4) entered at line 187 ({)
-### simple group (level 3) entered at line 175 ({)
-### simple group (level 2) entered at line 144 ({)
-### simple group (level 1) entered at line 4 ({)
-### bottom level 
-Here is how much of TeX's memory you used:
- 33208 strings out of 410654
- 720701 string characters out of 2816299
- 1640307 words of memory out of 3000000
- 53850 multiletter control sequences out of 15000+600000
- 479232 words of font info for 89 fonts, out of 8000000 for 9000
- 1350 hyphenation exceptions out of 8191
- 108i,9n,122p,10601b,6042s stack positions out of 10000i,1000n,20000p,200000b,80000s
+! Package polyglossia Error: Could not retrieve key direction for language "".
 
-Output written on main.pdf (24 pages).
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \selectlanguage *{*}
+                         
+(That was another \errmessage.)
+
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/DefineCommandsCmd}  =>  {use_none:n}
+>  {german/script}  =>  {latin}
+>  {german/lcscript}  =>  {latin}
+>  {german/scripttag}  =>  {}
+>  {german/language}  =>  {German}
+>  {german/langtag}  =>  {DEU}
+>  {german/bcp47}  =>  {de-DE}
+>  {german/hyphennames}  =>  {}
+>  {german/direction}  =>  {LR}
+>  {german/hyphenmins}  =>  {2,2}
+>  {german/frenchspacing}  =>  {true}
+>  {german/indentfirst}  =>  {false}
+>  {german/fontsetup}  =>  {true}
+>  {german/envname}  =>  {german}
+>  {german/babelname}  =>  {ngerman}
+>  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {german/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
+>  {english/direction}  =>  {LR}
+>  {english/hyphenmins}  =>  {2,3}
+>  {english/frenchspacing}  =>  {false}
+>  {english/indentfirst}  =>  {false}
+>  {english/fontsetup}  =>  {true}
+>  {english/envname}  =>  {english}
+>  {english/babelname}  =>  {american}
+>  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
+<recently read> }
+                 
+l.21 \selectlanguage *{*}
+                         
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \selectlanguage *{*}
+                         
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package polyglossia Error: Could not retrieve key indentfirst for language ""
+.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \selectlanguage *{*}
+                         
+(That was another \errmessage.)
+
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/DefineCommandsCmd}  =>  {use_none:n}
+>  {german/script}  =>  {latin}
+>  {german/lcscript}  =>  {latin}
+>  {german/scripttag}  =>  {}
+>  {german/language}  =>  {German}
+>  {german/langtag}  =>  {DEU}
+>  {german/bcp47}  =>  {de-DE}
+>  {german/hyphennames}  =>  {}
+>  {german/direction}  =>  {LR}
+>  {german/hyphenmins}  =>  {2,2}
+>  {german/frenchspacing}  =>  {true}
+>  {german/indentfirst}  =>  {false}
+>  {german/fontsetup}  =>  {true}
+>  {german/envname}  =>  {german}
+>  {german/babelname}  =>  {ngerman}
+>  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {german/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {e
