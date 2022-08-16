@@ -75,6 +75,8 @@ range-phrase={\,\dots\,},
 	pdfstartpage=1
 }
 
+
+\usepackage{eso-pic}
 % Makros für typographisch korrekte Abkürzungen
 \newcommand{\zb}[0]{z.\,B.\ }
 \newcommand{\dahe}[0]{d.\,h.\ }
@@ -89,9 +91,19 @@ range-phrase={\,\dots\,},
 \date{16. August 2022}
 
 %\subtitle{Die AG-Dokumentation der Feld- Wald und Wiesenbiologie AG beinhaltet Forschungsergebnisse aus dem ganzen Labjahr}
-\titlehead{Hochschule Mannheim, Hector-Seminar}
-\subject{Schriftliche Arbeit}
+%\titlehead{Hochschule Mannheim, Hector-Seminar}
+\subject{Kooperationsprojekt}
 \publishers{Betreut durch Prof. Dr. Thomas Ihme}
+\AddToShipoutPicture*
+{%
+	\put(100,700)%the specific point of the page with coordinates (x=100, y=100)
+	{\includegraphics[scale=0.3]{Bilder/HSMA-Logo.png}}%
+}
+\AddToShipoutPicture*
+{%
+	\put(400,700)%the specific point of the page with coordinates (x=100, y=100)
+	{\includegraphics[scale=0.4]{Bilder/hector-seminar_logo.jpg}}%
+}
 %numeric, authortitle
 %\usepackage[style=authoryear, backend=biber]{biblatex}
 \usepackage[defernumbers=true,backend=biber,

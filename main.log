@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7) (preloaded format=xelatex 2022.8.12)  16 AUG 2022 22:10
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7) (preloaded format=xelatex 2022.8.12)  16 AUG 2022 23:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -740,6 +740,11 @@ Package color Info: Driver file: xetex.def on input line 149.
 ltx))
 Package hyperref Info: Option `colorlinks' set `true' on input line 76.
 
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen271
+\ESO@tempdimb=\dimen272
+)
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2022/07/12 v3.18b programmable bibliographies (PK/MW)
 
@@ -1139,19 +1144,12 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                turtlebot3burger001
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (main.bbl)
 Package biblatex Info: Reference section=0 on input line 4.
 Package biblatex Info: Reference segment=0 on input line 4.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
- (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
@@ -1159,6 +1157,11 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+File: Bilder/HSMA-Logo.png Graphic file (type bmp)
+<Bilder/HSMA-Logo.png>
+File: Bilder/hector-seminar_logo.jpg Graphic file (type bmp)
+<Bilder/hector-seminar_logo.jpg>
+
 [1
 
 ] (abstract.tex) [2] (main.toc [3])
@@ -1180,14 +1183,9 @@ File: Bilder/network_turtlebot.png Graphic file (type bmp)
  [8]
 File: Bilder/turtlebot_3_burger.png Graphic file (type bmp)
 <Bilder/turtlebot_3_burger.png>
-
-
-LaTeX Warning: Reference `turtle3burger' on page 9 undefined on input line 121.
-
-
 File: Bilder/lds_small.png Graphic file (type bmp)
 <Bilder/lds_small.png>
-[9] [10] [11]
+ [9] [10] [11]
 
 LaTeX Warning: Reference `pic:pathfinding_procedure_1' on page 12 undefined on 
 input line 191.
@@ -1252,7 +1250,7 @@ File: Bilder/mapping_smpl_1.png Graphic file (type bmp)
 File: Bilder/mapping_smpl_2.png Graphic file (type bmp)
 <Bilder/mapping_smpl_2.png>
 
-Underfull \hbox (badness 3428) in paragraph at lines 60--60
+Underfull \hbox (badness 3428) in paragraph at lines 58--58
 [][]|\TU/lmss/m/n/8 Kartieruing nach erster Bewegung
  []
 
@@ -1265,12 +1263,13 @@ Overfull \hbox (11.2296pt too wide) in paragraph at lines 86--87
 [][][][][][][][][][][][][][] 
  []
 
-[18]) (Inhalt/Lokalisierung.tex
+) (Inhalt/Lokalisierung.tex
 File: Bilder/costmap_monte_carlo_example.png Graphic file (type bmp)
 <Bilder/costmap_monte_carlo_example.png>
+ [18]
 File: Bilder/amcl_clear_pointcloud.png Graphic file (type bmp)
 <Bilder/amcl_clear_pointcloud.png>
- [19]) (Inhalt/Navigation.tex
+) (Inhalt/Navigation.tex [19]
 File: Bilder/rviz_navgoal_small.png Graphic file (type bmp)
 <Bilder/rviz_navgoal_small.png>
  [20] [21]
@@ -1284,7 +1283,26 @@ Overfull \hbox (6.80563pt too wide) in paragraph at lines 33--34
 [22]) (Inhalt/Zusammenfassung.tex [23
 
 
-]) [24] (main.aux)
+])
+Overfull \hbox (15.46817pt too wide) in paragraph at lines 25--25
+[]\TU/lmr/m/n/10.95 C. Hildebrandt. “ROS Simulation.” English. (), Adresse: [][
+]$[][][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][][][][][][] [][]
+ []
+
+[24]
+Overfull \hbox (6.27867pt too wide) in paragraph at lines 25--25
+\TU/lmr/m/n/10.95 Adresse: [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] []
+ [][][] [] [][][][][][][] [] [][][][] [] [][][][][] [][] [][][][][][][][][][] [
+] [][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (60.63818pt too wide) in paragraph at lines 25--25
+[]\TU/lmr/m/n/10.95 Roboticsknowledgebase. “Cost Maps in ROS.” English. (), Adr
+esse: [][]$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+[25] (main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1302,12 +1320,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### simple group (level 1) entered at line 4 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 29734 strings out of 410654
- 589076 string characters out of 2816299
- 1453925 words of memory out of 3000000
- 50409 multiletter control sequences out of 15000+600000
+ 29936 strings out of 410654
+ 594581 string characters out of 2816299
+ 1466999 words of memory out of 3000000
+ 50605 multiletter control sequences out of 15000+600000
  479216 words of font info for 87 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
- 108i,8n,106p,10601b,5698s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 108i,8n,106p,10601b,5771s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on main.pdf (24 pages).
+Output written on main.pdf (25 pages).

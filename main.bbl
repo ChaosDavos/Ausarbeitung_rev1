@@ -31,6 +31,131 @@
       \field{title}{ROS: an open-source Robot Operating System}
       \field{year}{2009}
     \endentry
+    \entry{roshistoryconst}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0f369d48bbece9d5470954bac67a481d}{%
+           family={Tellez},
+           familyi={T\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{0f369d48bbece9d5470954bac67a481d}
+      \strng{fullhash}{0f369d48bbece9d5470954bac67a481d}
+      \strng{bibnamehash}{0f369d48bbece9d5470954bac67a481d}
+      \strng{authorbibnamehash}{0f369d48bbece9d5470954bac67a481d}
+      \strng{authornamehash}{0f369d48bbece9d5470954bac67a481d}
+      \strng{authorfullhash}{0f369d48bbece9d5470954bac67a481d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A History of ROS (Robot Operating System)}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.theconstructsim.com/history-ros/
+      \endverb
+      \verb{url}
+      \verb https://www.theconstructsim.com/history-ros/
+      \endverb
+    \endentry
+    \entry{roswikiintro}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6d2ee5676b068857db569005a9c6205a}{%
+           family={OpenRobotics},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {Deutsch}%
+      }
+      \strng{namehash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{fullhash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{bibnamehash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{authorbibnamehash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{authornamehash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{authorfullhash}{6d2ee5676b068857db569005a9c6205a}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{subtitle}{Was ist ROS?}
+      \field{title}{ROS - Einfuehrung}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://wiki.ros.org/de/ROS/Introduction
+      \endverb
+      \verb{url}
+      \verb http://wiki.ros.org/de/ROS/Introduction
+      \endverb
+    \endentry
+    \entry{rosgenerationrobotics}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ed85a11f9631b9cf0d929fab674c857a}{%
+           family={GenerationRobotics},
+           familyi={G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{ed85a11f9631b9cf0d929fab674c857a}
+      \strng{fullhash}{ed85a11f9631b9cf0d929fab674c857a}
+      \strng{bibnamehash}{ed85a11f9631b9cf0d929fab674c857a}
+      \strng{authorbibnamehash}{ed85a11f9631b9cf0d929fab674c857a}
+      \strng{authornamehash}{ed85a11f9631b9cf0d929fab674c857a}
+      \strng{authorfullhash}{ed85a11f9631b9cf0d929fab674c857a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ROS – Robot Operating System}
+      \verb{urlraw}
+      \verb https://www.generationrobots.com/blog/de/ros-robot-operating-system/
+      \endverb
+      \verb{url}
+      \verb https://www.generationrobots.com/blog/de/ros-robot-operating-system/
+      \endverb
+    \endentry
+    \entry{roswikimesgs}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6d2ee5676b068857db569005a9c6205a}{%
+           family={OpenRobotics},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{fullhash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{bibnamehash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{authorbibnamehash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{authornamehash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{authorfullhash}{6d2ee5676b068857db569005a9c6205a}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ROS Tutorial}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://wiki.ros.org/Messages
+      \endverb
+      \verb{url}
+      \verb http://wiki.ros.org/Messages
+      \endverb
+    \endentry
     \entry{rqtgraphsimplified1}{online}{}
       \name{author}{1}{}{%
         {{hash=881d1f9247b98361a93bdd6a6e42eece}{%
@@ -46,8 +171,8 @@
       \strng{authorbibnamehash}{881d1f9247b98361a93bdd6a6e42eece}
       \strng{authornamehash}{881d1f9247b98361a93bdd6a6e42eece}
       \strng{authorfullhash}{881d1f9247b98361a93bdd6a6e42eece}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{subtitle}{Visualize and Debug Your ROS Graph}
@@ -61,6 +186,364 @@
       \endverb
       \verb{url}
       \verb https://roboticsbackend.com/rqt-graph-visualize-and-debug-your-ros-graph/
+      \endverb
+    \endentry
+    \entry{roswikirqt}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6d2ee5676b068857db569005a9c6205a}{%
+           family={OpenRobotics},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{fullhash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{bibnamehash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{authorbibnamehash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{authornamehash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{authorfullhash}{6d2ee5676b068857db569005a9c6205a}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{rqt-Graph}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://wiki.ros.org/rqt_graph
+      \endverb
+      \verb{url}
+      \verb http://wiki.ros.org/rqt_graph
+      \endverb
+    \endentry
+    \entry{rosvisgit}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d4cff5d77754403b1eb68d37952eb3b8}{%
+           family={Hildebrandt},
+           familyi={H\bibinitperiod},
+           given={Carl},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{d4cff5d77754403b1eb68d37952eb3b8}
+      \strng{fullhash}{d4cff5d77754403b1eb68d37952eb3b8}
+      \strng{bibnamehash}{d4cff5d77754403b1eb68d37952eb3b8}
+      \strng{authorbibnamehash}{d4cff5d77754403b1eb68d37952eb3b8}
+      \strng{authornamehash}{d4cff5d77754403b1eb68d37952eb3b8}
+      \strng{authorfullhash}{d4cff5d77754403b1eb68d37952eb3b8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ROS Simulation}
+      \verb{urlraw}
+      \verb https://github.com/hildebrandt-carl/ROS-SimulationTutorial
+      \endverb
+      \verb{url}
+      \verb https://github.com/hildebrandt-carl/ROS-SimulationTutorial
+      \endverb
+    \endentry
+    \entry{turtlebotabout}{online}{}
+      \name{author}{1}{}{%
+        {{hash=06b290ab58c462e8059560b6966e15ae}{%
+           family={TurtleBot},
+           familyi={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{06b290ab58c462e8059560b6966e15ae}
+      \strng{fullhash}{06b290ab58c462e8059560b6966e15ae}
+      \strng{bibnamehash}{06b290ab58c462e8059560b6966e15ae}
+      \strng{authorbibnamehash}{06b290ab58c462e8059560b6966e15ae}
+      \strng{authornamehash}{06b290ab58c462e8059560b6966e15ae}
+      \strng{authorfullhash}{06b290ab58c462e8059560b6966e15ae}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is TurtleBot}
+      \verb{urlraw}
+      \verb https://www.turtlebot.com/about/
+      \endverb
+      \verb{url}
+      \verb https://www.turtlebot.com/about/
+      \endverb
+    \endentry
+    \entry{LiDAR}{inproceedings}{}
+      \list{location}{1}{%
+        {Waldkirch, Deutschland}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Sick AG Whitepaper}
+      \field{title}{Funktionsweise Uund Varianten von LiDAR-Sensoren}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cdn.sick.com/media/docs/5/25/425/whitepaper_lidar_de_im0079425.pdf
+      \endverb
+      \verb{url}
+      \verb https://cdn.sick.com/media/docs/5/25/425/whitepaper_lidar_de_im0079425.pdf
+      \endverb
+    \endentry
+    \entry{raspberrypi}{online}{}
+      \name{author}{2}{}{%
+        {{hash=95c5b2bb99f983119bb81ec2bf7fa2aa}{%
+           family={Luber},
+           familyi={L\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=47db407ac66669da54b848de91cee6ed}{%
+           family={Litzel},
+           familyi={L\bibinitperiod},
+           given={Nico},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {Deutsch}%
+      }
+      \strng{namehash}{61996130e4e389bd3dbac2e79b3ef69f}
+      \strng{fullhash}{61996130e4e389bd3dbac2e79b3ef69f}
+      \strng{bibnamehash}{61996130e4e389bd3dbac2e79b3ef69f}
+      \strng{authorbibnamehash}{61996130e4e389bd3dbac2e79b3ef69f}
+      \strng{authornamehash}{61996130e4e389bd3dbac2e79b3ef69f}
+      \strng{authorfullhash}{61996130e4e389bd3dbac2e79b3ef69f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Was ist Raspberry Pi}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bigdata-insider.de/was-ist-raspberry-pi-a-670954/
+      \endverb
+      \verb{url}
+      \verb https://www.bigdata-insider.de/was-ist-raspberry-pi-a-670954/
+      \endverb
+    \endentry
+    \entry{slam}{online}{}
+      \name{author}{3}{}{%
+        {{hash=98f4ab1bc2ac191d8f8a0651315ce9c0}{%
+           family={Burgard},
+           familyi={B\bibinitperiod},
+           given={Wolfram},
+           giveni={W\bibinitperiod}}}%
+        {{hash=5d87e0c36213202151bff64fdd9346a3}{%
+           family={Stachniss},
+           familyi={S\bibinitperiod},
+           given={Cyrill},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c4857dfee5cd1956bd7f1c881e25ed45}{%
+           family={Arras},
+           familyi={A\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{6d344d389752574e3c82e64062b924c7}
+      \strng{fullhash}{750b5f9718c29cbba98b3eb8f12eefc3}
+      \strng{bibnamehash}{750b5f9718c29cbba98b3eb8f12eefc3}
+      \strng{authorbibnamehash}{750b5f9718c29cbba98b3eb8f12eefc3}
+      \strng{authornamehash}{6d344d389752574e3c82e64062b924c7}
+      \strng{authorfullhash}{750b5f9718c29cbba98b3eb8f12eefc3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{subtitle}{SLAM: Simultaneous Localization and Mapping}
+      \field{title}{Introduction to Mobile Robotics}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://ais.informatik.uni-freiburg.de/teaching/ss12/robotics/slides/12-slam.pdf
+      \endverb
+      \verb{url}
+      \verb http://ais.informatik.uni-freiburg.de/teaching/ss12/robotics/slides/12-slam.pdf
+      \endverb
+    \endentry
+    \entry{gmapping}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e28d4ee199593959d8c29980a64f1974}{%
+           family={Abbeel},
+           familyi={A\bibinitperiod},
+           given={Pieter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{e28d4ee199593959d8c29980a64f1974}
+      \strng{fullhash}{e28d4ee199593959d8c29980a64f1974}
+      \strng{bibnamehash}{e28d4ee199593959d8c29980a64f1974}
+      \strng{authorbibnamehash}{e28d4ee199593959d8c29980a64f1974}
+      \strng{authornamehash}{e28d4ee199593959d8c29980a64f1974}
+      \strng{authorfullhash}{e28d4ee199593959d8c29980a64f1974}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{gMapping}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://people.eecs.berkeley.edu/~pabbeel/cs287-fa11/slides/gmapping.pdf
+      \endverb
+      \verb{url}
+      \verb https://people.eecs.berkeley.edu/~pabbeel/cs287-fa11/slides/gmapping.pdf
+      \endverb
+    \endentry
+    \entry{montecarloloc}{online}{}
+      \name{author}{1}{}{%
+        {{hash=31a4af5812eed5a3266fcb5c03ffaafe}{%
+           family={Bittel},
+           familyi={B\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {Deutsch}%
+      }
+      \strng{namehash}{31a4af5812eed5a3266fcb5c03ffaafe}
+      \strng{fullhash}{31a4af5812eed5a3266fcb5c03ffaafe}
+      \strng{bibnamehash}{31a4af5812eed5a3266fcb5c03ffaafe}
+      \strng{authorbibnamehash}{31a4af5812eed5a3266fcb5c03ffaafe}
+      \strng{authornamehash}{31a4af5812eed5a3266fcb5c03ffaafe}
+      \strng{authorfullhash}{31a4af5812eed5a3266fcb5c03ffaafe}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Monte-Carlo-Lokalisierung}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www-home.htwg-konstanz.de/~bittel/msi_robo/Vorlesung/08_MonteCarloLokalisierung.pdf
+      \endverb
+      \verb{url}
+      \verb http://www-home.htwg-konstanz.de/~bittel/msi_robo/Vorlesung/08_MonteCarloLokalisierung.pdf
+      \endverb
+    \endentry
+    \entry{pathfindingsmpl}{online}{}
+      \name{author}{2}{}{%
+        {{hash=6ec5ddd69ddd6dcb80c48b037fff6b54}{%
+           family={Needham},
+           familyi={N\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1e15ffc19ee5d14a503d8c289b779cf7}{%
+           family={Hodler},
+           familyi={H\bibinitperiod},
+           given={Amy},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{69445b27427d3efb1f33bf9de8247777}
+      \strng{fullhash}{69445b27427d3efb1f33bf9de8247777}
+      \strng{bibnamehash}{69445b27427d3efb1f33bf9de8247777}
+      \strng{authorbibnamehash}{69445b27427d3efb1f33bf9de8247777}
+      \strng{authornamehash}{69445b27427d3efb1f33bf9de8247777}
+      \strng{authorfullhash}{69445b27427d3efb1f33bf9de8247777}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pathfinding and Graph Search Algorithms}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.oreilly.com/library/view/graph-algorithms/9781492047674/ch04.html
+      \endverb
+      \verb{url}
+      \verb https://www.oreilly.com/library/view/graph-algorithms/9781492047674/ch04.html
+      \endverb
+    \endentry
+    \entry{roboknowcost}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8c9e78122c1db7ff2ddcfec0bb775502}{%
+           family={Roboticsknowledgebase},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{8c9e78122c1db7ff2ddcfec0bb775502}
+      \strng{fullhash}{8c9e78122c1db7ff2ddcfec0bb775502}
+      \strng{bibnamehash}{8c9e78122c1db7ff2ddcfec0bb775502}
+      \strng{authorbibnamehash}{8c9e78122c1db7ff2ddcfec0bb775502}
+      \strng{authornamehash}{8c9e78122c1db7ff2ddcfec0bb775502}
+      \strng{authorfullhash}{8c9e78122c1db7ff2ddcfec0bb775502}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cost Maps in ROS}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://roboticsknowledgebase.com/wiki/state-estimation/ros-cost-maps/
+      \endverb
+      \verb{url}
+      \verb https://roboticsknowledgebase.com/wiki/state-estimation/ros-cost-maps/
+      \endverb
+    \endentry
+    \entry{movebasenode}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6d2ee5676b068857db569005a9c6205a}{%
+           family={OpenRobotics},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{fullhash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{bibnamehash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{authorbibnamehash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{authornamehash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{authorfullhash}{6d2ee5676b068857db569005a9c6205a}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{move-base}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://wiki.ros.org/move_base
+      \endverb
+      \verb{url}
+      \verb http://wiki.ros.org/move_base
       \endverb
     \endentry
     \entry{movebasenodeoverview}{online}{}
@@ -78,8 +561,9 @@
       \strng{authorbibnamehash}{6d2ee5676b068857db569005a9c6205a}
       \strng{authornamehash}{6d2ee5676b068857db569005a9c6205a}
       \strng{authorfullhash}{6d2ee5676b068857db569005a9c6205a}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{extraname}{5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{subtitle}{Setup and Configuration of the Navigation Stack on a Robot}
@@ -96,7 +580,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{turtlebot3burger001}
 \endrefsection
 \endinput
 

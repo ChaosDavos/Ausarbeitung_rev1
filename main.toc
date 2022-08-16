@@ -35,12 +35,12 @@
 \contentsline {subsection}{\numberline {5.1}Kartierung mit Hilfe des LiDAR-Sensors}{16}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Implementierung}{18}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Karten speichern}{18}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Lokalisierung}{19}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Positionierung auf einer Karte}{19}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Implementierung}{20}{subsection.6.2}%
+\contentsline {section}{\numberline {6}Lokalisierung}{18}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Positionierung auf einer Karte}{18}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Implementierung}{19}{subsection.6.2}%
 \contentsline {section}{\numberline {7}Navigation}{20}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Navigationsziel festlegen}{20}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Implemention}{21}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.2}Implemention}{20}{subsection.7.2}%
 \contentsline {section}{\numberline {8}Probleme}{23}{section.8}%
 \contentsline {subsection}{\numberline {8.1}Bedienung}{23}{subsection.8.1}%
 \contentsline {subsection}{\numberline {8.2}Kartierung}{23}{subsection.8.2}%
