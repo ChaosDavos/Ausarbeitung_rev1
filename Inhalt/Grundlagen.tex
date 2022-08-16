@@ -161,7 +161,7 @@
 			
 		\subsubsection{GMapping}
 		{
-			GMapping beschreibt einen SLAM-Algorithmus, welche an der Universität Freiburg über Jahre hinweg entwickelt worden ist. Dieser ist einer der  meist genutzten Algorithmen für diese Zwecke und deshalb gibt es auch eine Implementation für das Robot-Operating-System. Die Entwicklung eines eigenen Kartierungsalgorithmus geht weit über die Zeitspanne dieses Projektes hinüber, weshalb das GMapping-ROS-Packet verwendet wird (siehe \textit{Kartierung}) %https://people.eecs.berkeley.edu/~pabbeel/cs287-fa11/slides/gmapping.pdf
+			GMapping beschreibt einen SLAM-Algorithmus, welche an der Universität Freiburg über Jahre hinweg entwickelt worden ist. Dieser ist einer der  meist genutzten Algorithmen für diese Zwecke und deshalb gibt es auch eine Implementation für das Robot-Operating-System. Die Entwicklung eines eigenen Kartierungsalgorithmus geht weit über die Zeitspanne dieses Projektes hinüber, weshalb das GMapping-ROS-Paket verwendet wird (siehe \textit{Kartierung}) %https://people.eecs.berkeley.edu/~pabbeel/cs287-fa11/slides/gmapping.pdf
 			
 		}
 	}
@@ -280,11 +280,11 @@
 			}
 			\subsection{Implementierung der Wegfindung} %https://www.researchgate.net/publication/253239158_ROSoClingo_A_ROS_package_for_ASP-based_robot_control
 			{
-				Um den Roboter nun zu einem Ziel zu navigieren, wird das move\textunderscore base-Packet verwendet. Dieses steuert die Navigation des Roboters, sowie den Pfad, welchem der Roboter folgen soll. Es besteht aus mehreren Nodes (in der Abbildung oval dargestellt).  Dazu abonniert diese Nodes verschiedene Topics. Dazu gehören Sensordaten (z.B. sensor\textunderscore msgs/LaserScan für die Daten des LiDAR-Sensors), Odometriedaten und eine Karte. Die Karte wird durch einen Kartenserver bereitgestellt, welcher, als Node, diese Karte veröffentlicht, sodass jegliche Programme darauf zugreifen können. Dafür muss die Karte jedoch als Bild vorliegen, weshalb die Karte nach vollendeter Kartierung des Labyrinth auf einem Datenträger, meist die Festplatte eines über Wifi mit dem Turtlebot verbundenen Computers, gespeichert werden muss. Die gespeicherte Karte kann daraufhin von dem Karten-Server geöffnet werden. Dieses System sorgt gleichzeitig dafür, dass man eine Umgebung zur Navigation nicht notwendigerweise erneut kartieren muss, sollte schon eine Karte existieren. Im Anwendungsfall ist dies auch praktisch. Staubsaugroboter müssen daher beispielsweise nicht jedes mal erneut eine komplette Karte eines Hauses erstellen.
+				Um den Roboter nun zu einem Ziel zu navigieren, wird das move\textunderscore base-Paket verwendet. Dieses steuert die Navigation des Roboters, sowie den Pfad, welchem der Roboter folgen soll. Es besteht aus mehreren Nodes (in der Abbildung oval dargestellt).  Dazu abonniert diese Nodes verschiedene Topics. Dazu gehören Sensordaten (z.B. sensor\textunderscore msgs/LaserScan für die Daten des LiDAR-Sensors), Odometriedaten und eine Karte. Die Karte wird durch einen Kartenserver bereitgestellt, welcher, als Node, diese Karte veröffentlicht, sodass jegliche Programme darauf zugreifen können. Dafür muss die Karte jedoch als Bild vorliegen, weshalb die Karte nach vollendeter Kartierung des Labyrinth auf einem Datenträger, meist die Festplatte eines über Wifi mit dem Turtlebot verbundenen Computers, gespeichert werden muss. Die gespeicherte Karte kann daraufhin von dem Karten-Server geöffnet werden. Dieses System sorgt gleichzeitig dafür, dass man eine Umgebung zur Navigation nicht notwendigerweise erneut kartieren muss, sollte schon eine Karte existieren. Im Anwendungsfall ist dies auch praktisch. Staubsaugroboter müssen daher beispielsweise nicht jedes mal erneut eine komplette Karte eines Hauses erstellen.
 				\begin{figure}[H]
 					\centering
-					\includegraphics[height=7cm]{Bilder/overview_move_base.png}
-					\caption{Das move\textunderscore base-Packet \\
+					\includegraphics[height=6.5cm]{Bilder/overview_move_base.png}
+					\caption{Das move\textunderscore base-Paket \\
 						\parencite{movebasenodeoverview}} 
 					\label{pic:overviewmovebase}
 				\end{figure}
