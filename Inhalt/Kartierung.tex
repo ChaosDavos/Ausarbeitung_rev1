@@ -1,30 +1,36 @@
 % !TEXroot=main.tex
 \section{Kartierung}
 {
-	Bevor der Roboter sich autonom Bewegen kann, muss dieser seine Umgebung erst kennen. Dafür wird von dieser eine KArte erstellt, auf welche später zurückgegriffen werden kann.
+	Bevor der Roboter sich autonom Bewegen kann, muss dieser seine Umgebung erst kennen. Dafür wird von dieser eine Karte erstellt, auf welche später zurückgegriffen werden kann.
 	\subsection{Kartierung mit Hilfe des LiDAR-Sensors}
 	{
 		Die Kartierung erfolgt mithilfe der Daten des LiDAR-Sensors. Dieser misst den Abstand des Roboters in verschiedene Richtungen punktartig. \newline  
-		\begin{figure}[H]
-			\begin{minipage}{0.5\textwidth}
-				\centering
-				\includegraphics[height=5cm]{Bilder/virtualmap_world_gazebo.png}
-				\caption{Roboter (zentriert im oberen \\ Drittel) in einer virtuellen \\Umgebung} %\parencite{flora85}}
-				\label{pic:virtworldgazebo}
-			\end{minipage}
-			\begin{minipage}{0.5\textwidth}
-				\centering
-				\includegraphics[height=5cm]{Bilder/virtualmap_world_rviz.png}
-				\caption{Momentaufnahme der des LiDAR-Sensors gemessenen Punkte (Rot)}
-				\label{pic:virtworldlaserrviz}	
-			\end{minipage}
-		\end{figure}
 		
+		\begin{figure}[H]
+			\captionsetup{width=.8\linewidth}
+			\centering
+			\begin{subfigure}[h]{.33\linewidth}
+				\centering
+				\includegraphics[scale=0.6, height =5cm]{Bilder/virtualmap_world_gazebo.png}
+				\subcaption{Roboter (zentriert im oberen Drittel) in einer virtuellen Umgebung}
+				\label{pic:virtworldgazebo}
+			\end{subfigure}%
+			\qquad % erzeugt etwas Abstand
+			\begin{subfigure}[h]{.33\linewidth}
+				\centering
+				\includegraphics[scale=0.6, height =5cm]{Bilder/virtualmap_world_rviz.png}
+				\subcaption{Momentaufnahme der des LiDAR-Sensors gemessenen Punkte (Rot)}
+				\label{pic:virtworldlaserrviz}
+			\end{subfigure}
+			\caption{Eine virtuelle Umgebung und der dazugehörige LiDAR-Scan}
+			\label{pic:virtualworld}
+		\end{figure}
+	
 		Links erkennt man eine mit Gazebo simulierte Welt, in welcher sich der Roboter befindet, wobei er von Objekten (Säulen, Mauern) umgeben ist. Das rechte Bild ist ein Ausschnitt aus dem vorher erwähnte Programm Rviz, welches die durch den LiDAR-Sensor gemessene Punkte rot darstellt. Es ist zu erkennen, dass das Verbinden der Roten Punkte auf die Ursprüngliche Umgebung schließen lässt. Je näher der Roboter an einem Objekt ist, desto mehr Punkte befinden sich an dessen Stelle
 		
-		Zwar gibt eine Messung von einem Standpunkt einen akzeptablen Überblick, so werden jedoch viele Messungen von verschiedenen Stellen benötigt. Durch die Positionsänderung (\textit{siehe Positionierung}) kann errechnet werden wo neue Messpunkte im Vergleich zu alten Messpunkten liegen. Diese Positionierung der Punkte relativ zueinander wird schlussendlich zu einer Karte, wobei viele Messungen nötig sind. Da die Karte jedoch nur aus Punkten besteht, muss der Roboter diese noch interpretieren, sodass viele linear angeordnete Punkte z.B. als Wand interpretiert werden.
+		Zwar gibt eine Messung von einem Standpunkt einen akzeptablen Überblick, so werden jedoch viele Messungen von verschiedenen Stellen benötigt. Durch die Positionsänderung (\emph{siehe Positionierung}) kann errechnet werden wo neue Messpunkte im Vergleich zu alten Messpunkten liegen. Diese Positionierung der Punkte relativ zueinander wird schlussendlich zu einer Karte, wobei viele Messungen nötig sind. Da die Karte jedoch nur aus Punkten besteht, muss der Roboter diese noch interpretieren, sodass viele linear angeordnete Punkte z.B. als Wand interpretiert werden.
 		
-		Um eine komplette Karte zu erhalten Bewegt sich der Roboter durch die ihm noch unbekannte Welt, bis er eine Region durch genug Messpunkte Kartographiert hat und sich nun in Richtung einer ihm unbekannteren Region bewegen kann. Da der Roboter durch den LiDAR-Sensor konstant seine Umgebung misst, kann die Karte konstant verändert werden, vor allem, wenn der Roboter sich in Richtung weniger erforschte Gebiete bewegt.
+		Um eine komplette Karte zu erhalten, bewegt sich der Roboter durch die ihm noch unbekannte Welt, bis er eine Region durch genug Messpunkte Kartographiert hat und sich nun in Richtung einer ihm unbekannteren Region bewegen kann. Da der Roboter durch den LiDAR-Sensor konstant seine Umgebung misst, kann die Karte konstant verändert werden, vor allem, wenn der Roboter sich in Richtung weniger erforschte Gebiete bewegt.
 		
 		Während des Anfangs des Projektes wurde der Roboter noch mit Hilfe der Tastatur an einem Rechner oder über einen Logitech-Controller Gesteuert. Danach wurde daraus jedoch eine autonome Navigation, meist in Richtung von Gebieten, welche weniger erforscht sind. 
 		
@@ -35,35 +41,40 @@
 			\item Metadaten über die Karte.
 		\end{enumerate}
 		
-		Durch die Kartierung dieses Algorithmus wird aus den einzelnen Laserscan-Daten nun eine Karte. Dies wird in den unteren Abbildungen dargestellt. Hierbei handelt es sich um die Kartierung der in Abbildung 4 gezeigten Umgebung. Schwarze Punkte wurden als Hindernis erkannt, graue Stellen sind hindernisfreie Punkte. Die durch den LiDAR-Sensor gemessenen Punkte werden in grüner Farbe über die Karte gelegt. In Abbildung 7 und 8 ist zu erkenne, dass schwarze Punkte nicht direkt mit Gemessenen Punkten des Lasers (grün) übereinstimmen. Dies liegt zum einen darin, dass die Berechnung der Karte Zeit benötigt, weshalb die Punkte noch verarbeitet werden, sowie daran, dass die Aktualisierungsrate der Karte eingestellt werden kann. Während intuitiv eine schnelle Aktualisierungsrate sinnvoll wirkt, ist eine zu hohe Rate nachteilig, da viel Leistung benötigt wird und mehr Fehler gemacht werden, da ungenaue Messpunkte zu schnellen Schlüssen auf der Karte führen. Bei einer längeren Zeitdauer zwischen Kartenaktualisierungen können nämlich mehr gemessene Punkte in Betracht gemessen werden.
+		Durch die Kartierung dieses Algorithmus wird aus den einzelnen Laserscan-Daten nun eine Karte. Dies wird in den unteren Abbildungen dargestellt. Hierbei handelt es sich um die Kartierung der in Abbildung \ref{pic:virtworldgazebo} gezeigten Umgebung. Schwarze Punkte wurden als Hindernis erkannt, graue Stellen sind hindernisfreie Punkte. Die durch den LiDAR-Sensor gemessenen Punkte werden in grüner Farbe über die Karte gelegt. In Abbildung \ref{pic:mapping_smpl_2} und \ref{pic:mapping_smpl_3} ist zu erkenne, dass schwarze Punkte nicht direkt mit Gemessenen Punkten des Lasers (grün) übereinstimmen. Dies liegt zum einen darin, dass die Berechnung der Karte Zeit benötigt, weshalb die Punkte noch verarbeitet werden, sowie daran, dass die Aktualisierungsrate der Karte eingestellt werden kann. Während intuitiv eine schnelle Aktualisierungsrate sinnvoll wirkt, ist eine zu hohe Rate nachteilig, da viel Leistung benötigt wird und mehr Fehler gemacht werden, da ungenaue Messpunkte zu schnellen Schlüssen auf der Karte führen. Bei einer längeren Zeitdauer zwischen Kartenaktualisierungen können nämlich mehr gemessene Punkte in Betracht gemessen werden.
 		
+	
 		\begin{figure}[H]
-			\begin{minipage}{0.5\textwidth}
+			\captionsetup{width=.8\linewidth}
+			\centering
+			\begin{subfigure}[h]{.33\linewidth}
 				\centering
-				\includegraphics[height=5cm]{Bilder/mapping_smpl_1.png}
-				\caption{Kartierung am Anfangspunkt}
+				\includegraphics[scale=0.6, height =5cm, width=5cm]{Bilder/mapping_smpl_1.png}
+				\subcaption{Kartierung am Anfangspunkt}
 				\label{pic:mapping_smpl_1}
-			\end{minipage}
-			\begin{minipage}{0.5\textwidth}
+			\end{subfigure}%
+			\qquad % erzeugt etwas Abstand
+			\begin{subfigure}[h]{.33\linewidth}
 				\centering
-				\includegraphics[height=5cm]{Bilder/mapping_smpl_2.png}
-				\caption{Kartierung nach erster Bewegung (nach oben)}
-				\label{pic:mapping_smpl_2}	
-			\end{minipage}
-		\end{figure}
-		\begin{figure}[H]
-			\begin{minipage}{0.5\textwidth}
+				\includegraphics[scale=0.6, height =5cm, width=5cm]{Bilder/mapping_smpl_2.png}
+				\subcaption{Kartieruing nach erster Bewegung (nach oben)}
+				\label{pic:mapping_smpl_2}
+			\end{subfigure}\hfill
+			\begin{subfigure}[h]{.33\linewidth}
 				\centering
-				\includegraphics[height=5cm]{Bilder/mapping_smpl_3.png}
-				\caption{Kartierung nach weiterer Bewegung}
+				\includegraphics[scale=0.6, height =5cm, width=5cm]{Bilder/mapping_smpl_3.png}
+				\subcaption{Kartierung nach weiterer Bewegung}
 				\label{pic:mapping_smpl_3}
-			\end{minipage}
-			\begin{minipage}{0.5\textwidth}
+			\end{subfigure}%
+			\qquad % erzeugt etwas Abstand
+			\begin{subfigure}[h]{.33\linewidth}
 				\centering
-				\includegraphics[height=5cm]{Bilder/mapping_smpl_4.png}
-				\caption{Kartierung nach Erreichen des oberen Endes}
-				\label{pic:mapping_smpl_4}	
-			\end{minipage}
+				\includegraphics[scale=0.6, height =5cm, width=5cm]{Bilder/mapping_smpl_4.png}
+				\subcaption{Kartierung nach Erreichen des oberen Endes}
+				\label{pic:mapping_smpl_4}
+			\end{subfigure}%
+			\caption{Kartierung einer virtuellen Umgebung}
+			\label{pic:mapping_smpl}
 		\end{figure}
 	}
 	\subsection{Implementierung}

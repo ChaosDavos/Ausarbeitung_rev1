@@ -1,17 +1,17 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'main.blg'
-[124] biber-MSWIN64:340> INFO - === 
-[161] Biber.pm:418> INFO - Reading 'main.bcf'
-[284] Biber.pm:978> INFO - Found 4 citekeys in bib section 0
-[302] Biber.pm:4401> INFO - Processing section 0
-[315] Biber.pm:4592> INFO - Looking for bibtex file 'literaturreferenzen.bib' for section 0
-[370] bibtex.pm:1713> INFO - LaTeX decoding ...
-[380] bibtex.pm:1518> INFO - Found BibTeX data source 'literaturreferenzen.bib'
-[433] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[434] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[434] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[434] Biber.pm:4227> INFO - No sort tailoring available for locale 'de-DE'
-[475] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[476] bbl.pm:757> INFO - Output to main.bbl
-[477] Biber.pm:130> WARN - I didn't find a database entry for 'Programmierung: Ansammmlung von Funktionen (eines Aufgabenbereiches)' (section 0)
-[477] Biber.pm:132> INFO - WARNINGS: 1
+[109] biber-MSWIN64:340> INFO - === 
+[141] Biber.pm:418> INFO - Reading 'main.bcf'
+[257] Biber.pm:978> INFO - Found 4 citekeys in bib section 0
+[276] Biber.pm:4401> INFO - Processing section 0
+[290] Biber.pm:4592> INFO - Looking for bibtex file 'literaturreferenzen.bib' for section 0
+[334] bibtex.pm:1713> INFO - LaTeX decoding ...
+[341] bibtex.pm:1518> INFO - Found BibTeX data source 'literaturreferenzen.bib'
+[389] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[389] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[389] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[389] Biber.pm:4227> INFO - No sort tailoring available for locale 'de-DE'
+[396] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[397] bbl.pm:757> INFO - Output to main.bbl
+[397] Biber.pm:130> WARN - I didn't find a database entry for 'turtlebot3burger001' (section 0)
+[397] Biber.pm:132> INFO - WARNINGS: 1

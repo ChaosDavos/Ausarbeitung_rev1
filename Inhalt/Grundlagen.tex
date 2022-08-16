@@ -109,7 +109,7 @@
 			\begin{figure}[H]
 				\centering
 				\includegraphics[height=5cm]{Bilder/turtlebot_3_burger.png}
-				\caption{Der Turtlebot 3 in der „Burger“ Variante \\ \parencite{turtlebot3burger001}} 
+				\caption{Der Turtlebot 3 in der "`Burger“ Variante} 
 				\label{pic:turtle3burger}
 			\end{figure}
 			
@@ -191,54 +191,65 @@
 			Viele Wegfindungsalgorithmen nutzen das gleiche Grundprinzip. Die Karte wird in kleine Vierecke unterteilt. Vom Startpunkt aus wird nun in eine Richtung gegangen und zwar einen Schritt weit. Dabei wird diese Stelle als "besucht" angesehen, wobei von ihr aus nun in weitere Richtungen gelaufen werden kann (Abbildung \ref{pic:pathfinding_procedure_1}). Grenzt eine besuchte Fläche an das Ziel an, so wurde ein Weg gefunden. Nachdem anfangs in jede Richtung ein Schritt in die Tiefe gegangen wurde, wird nun erneut in eine andere Richtung gegangen, bis in jede Richtung ein Schritt gegangen bzw. abgesucht worden ist (Abbildung \ref{pic:pathfinding_procedure_4}). Eine Tiefe (Längeneinheit) wurde somit vollständig abgedeckt. Daraufhin wird nun das Gleiche mit einer Tiefe von zwei zum Startpunkt hin wiederholt wird.
 			
 			\begin{figure}[H]
-				\begin{minipage}{0.5\textwidth}
+				\captionsetup{width=.8\linewidth}
+				\centering
+				\begin{subfigure}[h]{.17\linewidth}
 					\centering
-					\includegraphics[height=5cm]{Bilder/pathfinding_procedure_1.png}
-					\caption{\\ 1. Feld wird durchlaufen} 
-					\label{pic:pathfinding_procedure_1}
-				\end{minipage}
-				\begin{minipage}{0.5\textwidth}
+					\includegraphics[scale=0.6, height =4cm]{Bilder/pathfinding_procedure_1.png}
+					\subcaption{1. Feld durchlaufen}
+					\label{pic:pathproc1}
+				\end{subfigure}%
+				\qquad % erzeugt etwas Abstand
+				\begin{subfigure}[h]{.17\linewidth}
 					\centering
-					\includegraphics[height=5cm]{Bilder/pathfinding_procedure_2.png}
-					\caption{\\ 2. Feld wird durchlaufen} 
-					\label{pic:pathfinding_procedure_2}
-				\end{minipage}
-				\newline
-				\begin{minipage}{0.5\textwidth}
+					\includegraphics[scale=0.6, height =4cm]{Bilder/pathfinding_procedure_2.png}
+					\subcaption{2. Feld durchlaufen}
+					\label{pic:pathpro2}
+				\end{subfigure}%
+				\qquad
+				\begin{subfigure}[h]{.17\linewidth}
 					\centering
-					\includegraphics[height=5cm]{Bilder/pathfinding_procedure_3.png}
-					\caption{\\ 3. Feld wird durchlaufen} 
-					\label{pic:pathfinding_procedure_3}
-				\end{minipage}
-				\begin{minipage}{0.5\textwidth}
+					\includegraphics[scale=0.6, height =4cm]{Bilder/pathfinding_procedure_3.png}
+					\subcaption{3. Feld durchlaufen}
+					\label{pic:pathproc3}
+				\end{subfigure}%
+				\qquad % erzeugt etwas Abstand
+				\begin{subfigure}[h]{.17\linewidth}
 					\centering
-					\includegraphics[height=5cm]{Bilder/pathfinding_procedure_4.png}
-					\caption{\\ 4. Feld wird durchlaufen}
-					\label{pic:pathfinding_procedure_4}
-				\end{minipage}
+					\includegraphics[scale=0.6, height =4cm]{Bilder/pathfinding_procedure_4.png}
+					\subcaption{4. Feld durchlaufen}
+					\label{pic:pathproc4}
+				\end{subfigure}%
+				\caption{Funktionsweise eine Pathfinding-Algorithmus}
+				\label{pic:pathproc}
 			\end{figure}
 			
 			
 			%evtl \newpage
-			Dies wird in der unteren Abbildung verdeutlicht. Grün repräsentiert den Startpunkt, Rot den Endpunkt. Schwarz repräsentiert ein nicht passierbares Feld und blaue Felder sind von dem Suchalgorithmus bereits besucht worden. 
-			Die dargestellte Suchart stellt den \textbf{Breadth-first Search Algorithmus} dar, welche zur oben gegebenen Beschreibung passt. Dabei handelt es sich um einen einfachen Wegfindungsalgorithmus.
+			Dies wird in Abbildung \ref{pic:pathproc}verdeutlicht. Grün repräsentiert den Startpunkt, Rot den Endpunkt. Schwarz repräsentiert ein nicht passierbares Feld und blaue Felder sind von dem Suchalgorithmus bereits besucht worden. 
+			Die dargestellte Suchart stellt den \emph{Breadth-first Search Algorithmus} dar, welche zur oben gegebenen Beschreibung passt. Dabei handelt es sich um einen einfachen Wegfindungsalgorithmus.
 			
 			\begin{figure}[H]
-				\begin{minipage}{0.5\textwidth}
+				\captionsetup{width=.8\linewidth}
+				\centering
+				\begin{subfigure}[h]{.33\linewidth}
 					\centering
-					\includegraphics[height=5cm]{Bilder/pathfinding_tiefe1.png}
-					\caption{Besuchte Felder nachdem die \\ Tiefe 1 durchlaufen wurde} %\parencite{flora85}}
+					\includegraphics[scale=0.6, height =5cm]{Bilder/pathfinding_tiefe1.png}
+					\subcaption{1. Feld durchlaufen}
 					\label{pic:pathtiefe1}
-				\end{minipage}
-				\begin{minipage}{0.5\textwidth}
+				\end{subfigure}%
+				\qquad % erzeugt etwas Abstand
+				\begin{subfigure}[h]{.33\linewidth}
 					\centering
-					\includegraphics[height=5cm]{Bilder/pathfinding_tiefe2.png}
-					\caption{Besuchte Felder nachdem die \\ Tiefe 2 durchlaufen wurde} %\parencite{northFlora190105}}
+					\includegraphics[scale=0.6, height =5cm]{Bilder/pathfinding_tiefe2.png}
+					\subcaption{2. Feld durchlaufen}
 					\label{pic:pathtiefe2}
-				\end{minipage}
+				\end{subfigure}
+				\caption{Funktionsweise eine Pathfinding-Algorithmus}
+				\label{pic:pathtiefe}
 			\end{figure}	
 			
-			Zur Verbesserung der Effizienz nutzen manche Algorithmen weitere Algorithmen, die Schätzalgorithmen, welche man auch Heuristik nennt, die Einfluss darauf nehmen, welche Felder als nächstes besucht werden. Felder, welche in Richtung des Ziels zeigen bzw. sehr wahrscheinlich dorthin führen, werden bevorzugt durchlaufen, Felder, welche vom Ziel weg zeigen, werden hingegen seltener Besucht. Dazu misst der Algorithmus nicht nur die Distanz(Kosten) bis zu einem Punkt, um zu berechnen, ob es sich lohnt, von diesem aus weiter zu suchen, sondern auch die Distanz zum Ziel. Mathematisch kann man dies als zusammengesetzte Funktion verstehen.
+			Zur Verbesserung der Effizienz nutzen manche Algorithmen andere Methoden, die Schätzalgorithmen, welche man auch Heuristik nennt, die Einfluss darauf nehmen, welche Felder als nächstes besucht werden. Felder, welche in Richtung des Ziels zeigen bzw. sehr wahrscheinlich dorthin führen, werden bevorzugt durchlaufen, Felder, welche vom Ziel weg zeigen, werden hingegen seltener Besucht. Dazu misst der Algorithmus nicht nur die Distanz (Kosten) bis zu einem Punkt, um zu berechnen, ob es sich lohnt, von diesem aus weiter zu suchen, sondern auch die Distanz zum Ziel. Mathematisch kann man dies als zusammengesetzte Funktion verstehen.
 			\begin{equation}
 				f(x) = g(x) + h(x)
 			\end{equation}
@@ -258,13 +269,13 @@
 		
 			\subsubsection{Costmap}
 			{
-				Die gegebene Karte wird in eine Costmap umgewandelt. Dabei bleibt die Grundfunktion bestehen. Eine Karte, welche Hindernisse aufzeigt. Zusätzlich dazu unterstützt diese Karte jedoch bei der Wegfindung. Jeder Punkt auf der Karte erhält einen Wert - dessen Kost, welche die Wahrscheinlichkeit eines Zusammenstoßes beschreibt. Ist diese Kost hoch, bedeutet dies, dass, sofern der Mittelpunkt des Roboters sich auf diesem Punkt befindet, eine Kollision mit einem Gegenstand sehr wahrscheinlich ist. Je weiter ein Punkt von einem Hindernis entfernt ist, desto geringer ist der Wert dieses Punktes. 
+				Die gegebene Karte wird in eine Costmap umgewandelt. Dabei bleibt die Grundfunktion bestehen. Eine Karte, welche Hindernisse aufzeigt. Zusätzlich dazu unterstützt diese Karte jedoch bei der Wegfindung. Jeder Punkt auf der Karte erhält einen Wert - dessen Kosten, welche die Wahrscheinlichkeit eines Zusammenstoßes beschreibt. Sind diese Kosten hoch, bedeutet dies, dass, sofern der Mittelpunkt des Roboters sich auf diesem Punkt befindet, eine Kollision mit einem Gegenstand sehr wahrscheinlich ist. Je weiter ein Punkt von einem Hindernis entfernt ist, desto geringer ist der Wert dieses Punktes. 
 				\begin{figure}[H]
 					\centering				\includegraphics[height=5cm]{Bilder/costmap_overlayed.png}
 					\caption{Die Costmap einer Karte} 
 					\label{pic:costmapoverlayed}
 				\end{figure}
-				Die beigefügte Abbildung zeigt die Costmap. Es ist zu erkennen, dass der Bereich um Hindernisse (lila) verschieden gefärbt ist, was die abnehmenden Kosten für diesen Punkt beschreibt.
+				Abbildung \ref{pic:costmapoverlayed} zeigt die Costmap. Es ist zu erkennen, dass der Bereich um Hindernisse (lila) verschieden gefärbt ist, was die abnehmenden Kosten für diesen Punkt beschreibt.
 			}
 			
 			\subsubsection{Wegplanung}
@@ -277,12 +288,12 @@
 					\label{pic:costpathplanning}
 				\end{figure}
 				
-				Die obige Abbildung visualisiert den geplanten Weg. Dieser ist in einen roten, den lokal geplanten Weg, sowie einen Schwarzen, den global geplanten Weg aufgeteilt. Der blaue Strich repräsentiert die momentane Bewegungsrichtung. Weiter ist zu erkennen, dass die Costmap in einen lokalen Bereich (Rechteck), sowie einen globalen Bereich. Der lokale Bereich ist für die kurzfristige Wegplanung (lokaler Planer) für Bedeutung und hebt Hindernisse stärker hervor.
+				Die obige Abbildung visualisiert den geplanten Weg. Dieser ist in einen roten, den lokal geplanten Weg, sowie einen Schwarzen, den global geplanten Weg aufgeteilt. Der blaue Strich repräsentiert die momentane Bewegungsrichtung. Weiter ist zu erkennen, dass die Costmap in einen lokalen Bereich (Rechteck), sowie einen globalen Bereich, welcher die ganze Karte umfasst, hat. Der lokale Bereich ist für die kurzfristige Wegplanung (lokaler Planer) für Bedeutung und hebt Hindernisse stärker hervor.
 				
 			}
 			\subsection{Die move\tus base} %https://www.researchgate.net/publication/253239158_ROSoClingo_A_ROS_package_for_ASP-based_robot_control
 			{
-				Das move\tus base - pAket steuert die Navigation des Roboters, sowie den Pfad, welchem der Roboter folgen soll. Es besteht aus mehreren Nodes (in der Abbildung oval dargestellt).  Dazu abonnieren diese Nodes verschiedene Topics. Dazu gehören Sensordaten (z.B. \emph{sensor\textunderscore msgs/LaserScan} für die Daten des LiDAR-Sensors), Odometriedaten und eine Karte. Die Karte wird durch einen Kartenserver bereitgestellt, was aber auch der \emph{GMapping} - Node sein kann
+				Das move\tus base - Paket steuert die Navigation des Roboters, sowie den Pfad, welchem der Roboter folgen soll. Es besteht aus mehreren Nodes (in Abbildung \ref{pic:overviewmovebase}oval dargestellt).  Dazu abonnieren dieser Node verschiedene Topics. Dazu gehören Sensordaten (z.B. \emph{sensor\textunderscore msgs/LaserScan} für die Daten des LiDAR-Sensors), Odometriedaten und eine Karte. Die Karte wird durch einen Kartenserver bereitgestellt, was aber auch der \emph{GMapping} - Node sein kann
 				\begin{figure}[H]
 					\centering
 					\includegraphics[height=6.5cm]{Bilder/overview_move_base.png}

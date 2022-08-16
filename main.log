@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7) (preloaded format=xelatex 2022.8.12)  16 AUG 2022 21:11
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7) (preloaded format=xelatex 2022.8.12)  16 AUG 2022 22:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -146,268 +146,90 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count190
 \enitdp@description=\count191
 )
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\polyglossia
-.sty
-Package: polyglossia 2022/07/18 v1.57 Modern multilingual typesetting with XeLa
-TeX and LuaLaTeX
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/06/26 3.77 The Babel package
+\babel@savecnt=\count192
+\U@D=\dimen140
+\l@unhyphenated=\language79
 
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count192
-)
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/makecmds\makecmds.sty
-Package: makecmds 2009/09/03 v1.0a extra command making commands
-)
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
-Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/generic/babel\xebabel.def
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def))
+\bbl@readstream=\read2
+\bbl@dirlevel=\count193
 
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks18
-\XKV@tempa@toks=\toks19
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
 )
-\XKV@depth=\count193
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
-e.sty
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2022-07-04 L3 programming layer (loader) 
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\german.ldf
+Language: german 2021/02/27 v2.13 German support for babel (pre-1996 orthograph
+y)
 
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xet
-ex.def
-File: l3backend-xetex.def 2022-07-01 L3 backend support: XeTeX
-\g__graphics_track_int=\count194
-\l__pdf_internal_box=\box54
-\g__pdf_backend_object_int=\count195
-\g__pdf_backend_annotation_int=\count196
-\g__pdf_backend_link_int=\count197
-))
-Package: xparse 2022-06-22 L3 Experimental document command parser
-)
-Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
-
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec-xetex
-.sty
-Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
-X
-\l__fontspec_script_int=\count198
-\l__fontspec_language_int=\count199
-\l__fontspec_strnum_int=\count266
-\l__fontspec_tmp_int=\count267
-\l__fontspec_tmpa_int=\count268
-\l__fontspec_tmpb_int=\count269
-\l__fontspec_tmpc_int=\count270
-\l__fontspec_em_int=\count271
-\l__fontspec_emdef_int=\count272
-\l__fontspec_strong_int=\count273
-\l__fontspec_strongdef_int=\count274
-\l__fontspec_tmpa_dim=\dimen140
-\l__fontspec_tmpb_dim=\dimen141
-\l__fontspec_tmpc_dim=\dimen142
- (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-)
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg))
-) (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
-)
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
-eys2e.sty
-Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
-)
-\xpg@normalclass=\XeTeXcharclass1
-
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\gloss-latex
-.lde
-Package: gloss-latex 2021/07/10 vv1.53 polyglossia: module for default language
-
-The property list \polyglossia@langsetup contains the pairs (without outer
-braces):
->  {latex/script}  =>  {latin}
->  {latex/lcscript}  =>  {latin}
->  {latex/scripttag}  =>  {}
->  {latex/language}  =>  {Latex}
->  {latex/langtag}  =>  {ENG}
->  {latex/bcp47}  =>  {}
->  {latex/hyphennames}  =>  {english}
->  {latex/direction}  =>  {LR}
->  {latex/hyphenmins}  =>  {2,3}
->  {latex/frenchspacing}  =>  {false}
->  {latex/indentfirst}  =>  {false}
->  {latex/fontsetup}  =>  {true}
->  {latex/envname}  =>  {latex}
->  {latex/babelname}  =>  {latex}
->  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
->  {latex/DefineCommandsCmd}  =>  {use_none:n}.
-)
-Package polyglossia Info: Default language is latex.
-)
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\gloss-germa
-n.ldf
-File: gloss-german.ldf polyglossia: module for german
-The property list \polyglossia@langsetup contains the pairs (without outer
-braces):
->  {latex/script}  =>  {latin}
->  {latex/lcscript}  =>  {latin}
->  {latex/scripttag}  =>  {}
->  {latex/language}  =>  {Latex}
->  {latex/langtag}  =>  {ENG}
->  {latex/bcp47}  =>  {}
->  {latex/hyphennames}  =>  {english}
->  {latex/direction}  =>  {LR}
->  {latex/hyphenmins}  =>  {2,3}
->  {latex/frenchspacing}  =>  {false}
->  {latex/indentfirst}  =>  {false}
->  {latex/fontsetup}  =>  {true}
->  {latex/envname}  =>  {latex}
->  {latex/babelname}  =>  {latex}
->  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
->  {latex/DefineCommandsCmd}  =>  {use_none:n}
->  {german/script}  =>  {latin}
->  {german/lcscript}  =>  {latin}
->  {german/scripttag}  =>  {}
->  {german/language}  =>  {German}
->  {german/langtag}  =>  {DEU}
->  {german/bcp47}  =>  {de-DE}
->  {german/hyphennames}  =>  {}
->  {german/direction}  =>  {LR}
->  {german/hyphenmins}  =>  {2,2}
->  {german/frenchspacing}  =>  {true}
->  {german/indentfirst}  =>  {false}
->  {german/fontsetup}  =>  {true}
->  {german/envname}  =>  {german}
->  {german/babelname}  =>  {ngerman}
->  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}
->  {german/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
-Package polyglossia Info: Option: German, spelling=new.
-Package polyglossia Info: Option: German, script=latin.
-Package polyglossia Info: Option: German, variant=german.
-Package polyglossia Info: Option: German, variant=german.
-Package polyglossia Info: Option: German, spelling=new.
-Package polyglossia Info: Option: German, script=latin.
-
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\babelsh.def
-File: babelsh.def 2022/06/21 Babel common definitions for shorthands
- Taken verbatim from babel files (2022/06/06 v3.76)
-)
-Package babel Info: Making " an active character on input line 177.
-)
-Package polyglossia Info: Default language is german.
-
-(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\gloss-engli
-sh.ldf
-File: gloss-english.ldf polyglossia: module for english
-The property list \polyglossia@langsetup contains the pairs (without outer
-braces):
->  {latex/script}  =>  {latin}
->  {latex/lcscript}  =>  {latin}
->  {latex/scripttag}  =>  {}
->  {latex/language}  =>  {Latex}
->  {latex/langtag}  =>  {ENG}
->  {latex/bcp47}  =>  {}
->  {latex/hyphennames}  =>  {english}
->  {latex/direction}  =>  {LR}
->  {latex/hyphenmins}  =>  {2,3}
->  {latex/frenchspacing}  =>  {false}
->  {latex/indentfirst}  =>  {false}
->  {latex/fontsetup}  =>  {true}
->  {latex/envname}  =>  {latex}
->  {latex/babelname}  =>  {latex}
->  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
->  {latex/DefineCommandsCmd}  =>  {use_none:n}
->  {german/script}  =>  {latin}
->  {german/lcscript}  =>  {latin}
->  {german/scripttag}  =>  {}
->  {german/language}  =>  {German}
->  {german/langtag}  =>  {DEU}
->  {german/bcp47}  =>  {de-DE}
->  {german/hyphennames}  =>  {}
->  {german/direction}  =>  {LR}
->  {german/hyphenmins}  =>  {2,2}
->  {german/frenchspacing}  =>  {true}
->  {german/indentfirst}  =>  {false}
->  {german/fontsetup}  =>  {true}
->  {german/envname}  =>  {german}
->  {german/babelname}  =>  {ngerman}
->  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}
->  {german/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}
->  {english/script}  =>  {latin}
->  {english/lcscript}  =>  {latin}
->  {english/scripttag}  =>  {}
->  {english/language}  =>  {English}
->  {english/langtag}  =>  {ENG}
->  {english/bcp47}  =>  {en-US}
->  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
->  {english/direction}  =>  {LR}
->  {english/hyphenmins}  =>  {2,3}
->  {english/frenchspacing}  =>  {false}
->  {english/indentfirst}  =>  {false}
->  {english/fontsetup}  =>  {true}
->  {english/envname}  =>  {english}
->  {english/babelname}  =>  {english}
->  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
->  {english/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
-Package polyglossia Info: Option: English, variant=american.
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\germanb.ld
+f
+Language: germanb 2021/02/27 v2.13 German support for babel (pre-1996 orthograp
+hy)
+Package babel Info: Making " an active character on input line 139.
+)))
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/de\babel
+-german.tex
+Package babel Info: Importing font and identification data for german
+(babel)             from babel-de-1901.ini. Reported on input line 25.
 )
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count275
-\c@Blindtext=\count276
-\c@blind@countparstart=\count277
-\blind@countxx=\count278
-\blindtext@numBlindtext=\count279
-\blind@countyy=\count280
-\c@blindlist=\count281
-\c@blindlistlevel=\count282
-\c@blindlist@level=\count283
-\blind@listitem=\count284
-\c@blind@listcount=\count285
-\c@blind@levelcount=\count286
-\blind@mathformula=\count287
-\blind@Mathformula=\count288
-\c@blind@randomcount=\count289
-\c@blind@randommax=\count290
-\c@blind@pangramcount=\count291
-\c@blind@pangrammax=\count292
+\c@blindtext=\count194
+\c@Blindtext=\count195
+\c@blind@countparstart=\count196
+\blind@countxx=\count197
+\blindtext@numBlindtext=\count198
+\blind@countyy=\count199
+\c@blindlist=\count266
+\c@blindlistlevel=\count267
+\c@blindlist@level=\count268
+\blind@listitem=\count269
+\c@blind@listcount=\count270
+\c@blind@levelcount=\count271
+\blind@mathformula=\count272
+\blind@Mathformula=\count273
+\c@blind@randomcount=\count274
+\c@blind@randommax=\count275
+\c@blind@pangramcount=\count276
+\c@blind@pangrammax=\count277
 )
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count293
-\float@exts=\toks20
-\float@box=\box55
-\@float@everytoks=\toks21
-\@floatcapt=\box56
+\c@float@type=\count278
+\float@exts=\toks18
+\float@box=\box54
+\@float@everytoks=\toks19
+\@floatcapt=\box55
 )
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count294
-\lst@gtempboxa=\box57
-\lst@token=\toks22
-\lst@length=\count295
-\lst@currlwidth=\dimen143
-\lst@column=\count296
-\lst@pos=\count297
-\lst@lostspace=\dimen144
-\lst@width=\dimen145
-\lst@newlines=\count298
-\lst@lineno=\count299
-\lst@maxwidth=\dimen146
+\lst@mode=\count279
+\lst@gtempboxa=\box56
+\lst@token=\toks20
+\lst@length=\count280
+\lst@currlwidth=\dimen141
+\lst@column=\count281
+\lst@pos=\count282
+\lst@lostspace=\dimen142
+\lst@width=\dimen143
+\lst@newlines=\count283
+\lst@lineno=\count284
+\lst@maxwidth=\dimen144
 
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count300
-\lst@skipnumbers=\count301
-\lst@framebox=\box58
+\c@lstnumber=\count285
+\lst@skipnumbers=\count286
+\lst@framebox=\box57
 )
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -423,61 +245,61 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks23
-\ex@=\dimen147
+\@emptytoks=\toks21
+\ex@=\dimen145
 ))
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen148
+\pmbraise@=\dimen146
 )
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count302
+\inf@bad=\count287
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count303
-\leftroot@=\count304
+\uproot@=\count288
+\leftroot@=\count289
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count305
-\DOTSCASE@=\count306
+\classnum@=\count290
+\DOTSCASE@=\count291
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box59
-\strutbox@=\box60
+\Mathstrutbox@=\box58
+\strutbox@=\box59
 LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen149
+\big@size=\dimen147
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count307
+\macc@depth=\count292
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count308
+\c@MaxMatrixCols=\count293
 \dotsspace@=\muskip16
-\c@parentequation=\count309
-\dspbrk@lvl=\count310
-\tag@help=\toks24
-\row@=\count311
-\column@=\count312
-\maxfields@=\count313
-\andhelp@=\toks25
-\eqnshift@=\dimen150
-\alignsep@=\dimen151
-\tagshift@=\dimen152
-\tagwidth@=\dimen153
-\totwidth@=\dimen154
-\lineht@=\dimen155
-\@envbody=\toks26
+\c@parentequation=\count294
+\dspbrk@lvl=\count295
+\tag@help=\toks22
+\row@=\count296
+\column@=\count297
+\maxfields@=\count298
+\andhelp@=\toks23
+\eqnshift@=\dimen148
+\alignsep@=\dimen149
+\tagshift@=\dimen150
+\tagwidth@=\dimen151
+\totwidth@=\dimen152
+\lineht@=\dimen153
+\@envbody=\toks24
 \multlinegap=\skip65
 \multlinetaggap=\skip66
-\mathdisplay@stack=\toks27
+\mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
@@ -485,31 +307,31 @@ LaTeX Info: Redefining \] on input line 2954.
 Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count314
-\calc@Bcount=\count315
-\calc@Adimen=\dimen156
-\calc@Bdimen=\dimen157
+\calc@Acount=\count299
+\calc@Bcount=\count300
+\calc@Adimen=\dimen154
+\calc@Bdimen=\dimen155
 \calc@Askip=\skip67
 \calc@Bskip=\skip68
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count316
+\calc@Ccount=\count301
 \calc@Cskip=\skip69
 )
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count317
-\l_MT_multwidth_dim=\dimen158
+\g_MT_multlinerow_int=\count302
+\l_MT_multwidth_dim=\dimen156
 \origjot=\skip70
-\l_MT_shortvdotswithinadjustabove_dim=\dimen159
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen160
-\l_MT_above_intertext_sep=\dimen161
-\l_MT_below_intertext_sep=\dimen162
-\l_MT_above_shortintertext_sep=\dimen163
-\l_MT_below_shortintertext_sep=\dimen164
-\xmathstrut@box=\box61
-\xmathstrut@dim=\dimen165
+\l_MT_shortvdotswithinadjustabove_dim=\dimen157
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen158
+\l_MT_above_intertext_sep=\dimen159
+\l_MT_below_intertext_sep=\dimen160
+\l_MT_above_shortintertext_sep=\dimen161
+\l_MT_below_shortintertext_sep=\dimen162
+\xmathstrut@box=\box60
+\xmathstrut@dim=\dimen163
 ) (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -528,52 +350,53 @@ Package graphics Info: Driver file: xetex.def on input line 107.
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
 File: xetex.def 2022/04/16 v5.0m Graphics/color driver for xetex
 ))
-\Gin@req@height=\dimen166
-\Gin@req@width=\dimen167
+\Gin@req@height=\dimen164
+\Gin@req@width=\dimen165
 )
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen168
-\lightrulewidth=\dimen169
-\cmidrulewidth=\dimen170
-\belowrulesep=\dimen171
-\belowbottomsep=\dimen172
-\aboverulesep=\dimen173
-\abovetopsep=\dimen174
-\cmidrulesep=\dimen175
-\cmidrulekern=\dimen176
-\defaultaddspace=\dimen177
-\@cmidla=\count318
-\@cmidlb=\count319
-\@aboverulesep=\dimen178
-\@belowrulesep=\dimen179
-\@thisruleclass=\count320
-\@lastruleclass=\count321
-\@thisrulewidth=\dimen180
+\heavyrulewidth=\dimen166
+\lightrulewidth=\dimen167
+\cmidrulewidth=\dimen168
+\belowrulesep=\dimen169
+\belowbottomsep=\dimen170
+\aboverulesep=\dimen171
+\abovetopsep=\dimen172
+\cmidrulesep=\dimen173
+\cmidrulekern=\dimen174
+\defaultaddspace=\dimen175
+\@cmidla=\count303
+\@cmidlb=\count304
+\@aboverulesep=\dimen176
+\@belowrulesep=\dimen177
+\@thisruleclass=\count305
+\@lastruleclass=\count306
+\@thisrulewidth=\dimen178
 )
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
-\c@tracingmulticols=\count322
-\mult@box=\box62
-\multicol@leftmargin=\dimen181
-\c@unbalance=\count323
-\c@collectmore=\count324
-\doublecol@number=\count325
-\multicoltolerance=\count326
-\multicolpretolerance=\count327
-\full@width=\dimen182
-\page@free=\dimen183
-\premulticols=\dimen184
-\postmulticols=\dimen185
+\c@tracingmulticols=\count307
+\mult@box=\box61
+\multicol@leftmargin=\dimen179
+\c@unbalance=\count308
+\c@collectmore=\count309
+\doublecol@number=\count310
+\multicoltolerance=\count311
+\multicolpretolerance=\count312
+\full@width=\dimen180
+\page@free=\dimen181
+\premulticols=\dimen182
+\postmulticols=\dimen183
 \multicolsep=\skip71
 \multicolbaselineskip=\skip72
-\partial@page=\box63
-\last@line=\box64
-\maxbalancingoverflow=\dimen186
-\mult@rightbox=\box65
-\mult@grightbox=\box66
-\mult@firstbox=\box67
-\mult@gfirstbox=\box68
+\partial@page=\box62
+\last@line=\box63
+\maxbalancingoverflow=\dimen184
+\mult@rightbox=\box64
+\mult@grightbox=\box65
+\mult@firstbox=\box66
+\mult@gfirstbox=\box67
+\@tempa=\box68
 \@tempa=\box69
 \@tempa=\box70
 \@tempa=\box71
@@ -609,16 +432,15 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \@tempa=\box101
 \@tempa=\box102
 \@tempa=\box103
-\@tempa=\box104
-\c@minrows=\count328
-\c@columnbadness=\count329
-\c@finalcolumnbadness=\count330
-\last@try=\dimen187
-\multicolovershoot=\dimen188
-\multicolundershoot=\dimen189
-\mult@nat@firstbox=\box105
-\colbreak@box=\box106
-\mc@col@check@num=\count331
+\c@minrows=\count313
+\c@columnbadness=\count314
+\c@finalcolumnbadness=\count315
+\last@try=\dimen185
+\multicolovershoot=\dimen186
+\multicolundershoot=\dimen187
+\mult@nat@firstbox=\box104
+\colbreak@box=\box105
+\mc@col@check@num=\count316
 )
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
@@ -636,14 +458,14 @@ Package: caption 2022/03/01 v3.6b Customizing captions (AR)
 
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen190
-\captionmargin=\dimen191
-\caption@leftmargin=\dimen192
-\caption@rightmargin=\dimen193
-\caption@width=\dimen194
-\caption@indent=\dimen195
-\caption@parindent=\dimen196
-\caption@hangindent=\dimen197
+\caption@tempdima=\dimen188
+\captionmargin=\dimen189
+\caption@leftmargin=\dimen190
+\caption@rightmargin=\dimen191
+\caption@width=\dimen192
+\caption@indent=\dimen193
+\caption@parindent=\dimen194
+\caption@hangindent=\dimen195
 Package caption Info: KOMA-Script document class detected.
 
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-koma.st
@@ -651,8 +473,8 @@ o
 File: caption-koma.sto 2020/09/21 v2.0b Adaption of the caption package to the 
 KOMA-Script document classes (AR)
 ))
-\c@caption@flags=\count332
-\c@continuedfloat=\count333
+\c@caption@flags=\count317
+\c@continuedfloat=\count318
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 )
@@ -661,25 +483,28 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-)
-\Gm@cnth=\count334
-\Gm@cntv=\count335
-\c@Gm@tempcnt=\count336
-\Gm@bindingoffset=\dimen198
-\Gm@wd@mp=\dimen199
-\Gm@odd@mp=\dimen256
-\Gm@even@mp=\dimen257
-\Gm@layoutwidth=\dimen258
-\Gm@layoutheight=\dimen259
-\Gm@layouthoffset=\dimen260
-\Gm@layoutvoffset=\dimen261
-\Gm@dimlist=\toks28
+
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count319
+\Gm@cntv=\count320
+\c@Gm@tempcnt=\count321
+\Gm@bindingoffset=\dimen196
+\Gm@wd@mp=\dimen197
+\Gm@odd@mp=\dimen198
+\Gm@even@mp=\dimen199
+\Gm@layoutwidth=\dimen256
+\Gm@layoutheight=\dimen257
+\Gm@layouthoffset=\dimen258
+\Gm@layoutvoffset=\dimen259
+\Gm@dimlist=\toks26
 
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
-\c@subfigure=\count337
-\c@subtable=\count338
+\c@subfigure=\count322
+\c@subtable=\count323
 ) (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
@@ -689,11 +514,11 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count339
+\c@r@tfl@t=\count324
 \rotFPtop=\skip73
 \rotFPbot=\skip74
-\rot@float@box=\box107
-\rot@mess@toks=\toks29
+\rot@float@box=\box106
+\rot@mess@toks=\toks27
 )
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
@@ -704,16 +529,20 @@ Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )) (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2022-08-08 v3.1.6 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen262
-\l__siunitx_angle_marker_box=\box108
-\l__siunitx_angle_unit_box=\box109
-\l__siunitx_compound_count_int=\count340
+\l__siunitx_angle_tmp_dim=\dimen260
+\l__siunitx_angle_marker_box=\box107
+\l__siunitx_angle_unit_box=\box108
+\l__siunitx_compound_count_int=\count325
 
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
 ns.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count326
+)
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
 .sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
@@ -730,25 +559,25 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
 ))
-\l__siunitx_number_exponent_fixed_int=\count341
-\l__siunitx_number_min_decimal_int=\count342
-\l__siunitx_number_min_integer_int=\count343
-\l__siunitx_number_round_precision_int=\count344
-\l__siunitx_number_group_first_int=\count345
-\l__siunitx_number_group_size_int=\count346
-\l__siunitx_number_group_minimum_int=\count347
-\l__siunitx_table_tmp_box=\box110
-\l__siunitx_table_tmp_dim=\dimen263
-\l__siunitx_table_column_width_dim=\dimen264
-\l__siunitx_table_integer_box=\box111
-\l__siunitx_table_decimal_box=\box112
-\l__siunitx_table_before_box=\box113
-\l__siunitx_table_after_box=\box114
-\l__siunitx_table_before_dim=\dimen265
-\l__siunitx_table_carry_dim=\dimen266
-\l__siunitx_unit_tmp_int=\count348
-\l__siunitx_unit_position_int=\count349
-\l__siunitx_unit_total_int=\count350
+\l__siunitx_number_exponent_fixed_int=\count327
+\l__siunitx_number_min_decimal_int=\count328
+\l__siunitx_number_min_integer_int=\count329
+\l__siunitx_number_round_precision_int=\count330
+\l__siunitx_number_group_first_int=\count331
+\l__siunitx_number_group_size_int=\count332
+\l__siunitx_number_group_minimum_int=\count333
+\l__siunitx_table_tmp_box=\box109
+\l__siunitx_table_tmp_dim=\dimen261
+\l__siunitx_table_column_width_dim=\dimen262
+\l__siunitx_table_integer_box=\box110
+\l__siunitx_table_decimal_box=\box111
+\l__siunitx_table_before_box=\box112
+\l__siunitx_table_after_box=\box113
+\l__siunitx_table_before_dim=\dimen263
+\l__siunitx_table_carry_dim=\dimen264
+\l__siunitx_unit_tmp_int=\count334
+\l__siunitx_unit_position_int=\count335
+\l__siunitx_unit_total_int=\count336
 
 Package siunitx Info: Option "detect-all" has been deprecated in this release.
 (siunitx)             
@@ -765,13 +594,13 @@ Package siunitx Warning: Option "binary-units" has been removed in this
 
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen267
-\ar@mcellbox=\box115
-\extrarowheight=\dimen268
-\NC@list=\toks30
+\col@sep=\dimen265
+\ar@mcellbox=\box114
+\extrarowheight=\dimen266
+\NC@list=\toks28
 \extratabsurround=\skip75
 \backup@length=\skip76
-\ar@cellbox=\box116
+\ar@cellbox=\box115
 ))
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2022-06-20 v7.00s Hypertext links for LaTeX
@@ -810,11 +639,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count351
+\c@section@level=\count337
 )
-\@linkdim=\dimen269
-\Hy@linkcounter=\count352
-\Hy@pagecounter=\count353
+\@linkdim=\dimen267
+\Hy@linkcounter=\count338
+\Hy@pagecounter=\count339
  (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2022-06-20 v7.00s Hyperref: PDFDocEncoding definition (HO)
 ) (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
@@ -823,7 +652,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count354
+\Hy@SavedSpaceFactor=\count340
  (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2022-06-20 v7.00s Hyperref: PDF Unicode definition (HO)
 )
@@ -834,14 +663,14 @@ Package hyperref Info: Plain pages OFF on input line 4177.
 Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4408.
-\c@Hy@tempcnt=\count355
+\c@Hy@tempcnt=\count341
 
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4746.
-\XeTeXLinkMargin=\dimen270
+\XeTeXLinkMargin=\dimen268
 
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -851,9 +680,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count356
-\Field@Width=\dimen271
-\Fld@charsize=\dimen272
+\Fld@menulength=\count342
+\Field@Width=\dimen269
+\Fld@charsize=\dimen270
 Package hyperref Info: Hyper figures OFF on input line 6024.
 Package hyperref Info: Link nesting OFF on input line 6029.
 Package hyperref Info: Hyper index ON on input line 6032.
@@ -861,9 +690,9 @@ Package hyperref Info: backreferencing OFF on input line 6039.
 Package hyperref Info: Link coloring OFF on input line 6044.
 Package hyperref Info: Link coloring with OCG OFF on input line 6049.
 Package hyperref Info: PDF/A mode OFF on input line 6054.
-\Hy@abspage=\count357
-\c@Item=\count358
-\c@Hfootnote=\count359
+\Hy@abspage=\count343
+\c@Item=\count344
+\c@Hfootnote=\count345
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
@@ -875,11 +704,11 @@ ty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box117
-\c@Hy@AnnotLevel=\count360
-\HyField@AnnotCount=\count361
-\Fld@listcount=\count362
-\c@bookmark@seq@number=\count363
+\pdfm@box=\box116
+\c@Hy@AnnotLevel=\count346
+\HyField@AnnotCount=\count347
+\Fld@listcount=\count348
+\c@bookmark@seq@number=\count349
 
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
@@ -909,61 +738,61 @@ Package color Info: Driver file: xetex.def on input line 149.
 
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex-dev/graphics\mathcolor.
 ltx))
-Package hyperref Info: Option `colorlinks' set `true' on input line 75.
+Package hyperref Info: Option `colorlinks' set `true' on input line 76.
 
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2022/07/12 v3.18b programmable bibliographies (PK/MW)
 
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count364
+\lrq@indent=\count350
 
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count365
-\c@listtotal=\count366
-\c@listcount=\count367
-\c@liststart=\count368
-\c@liststop=\count369
-\c@citecount=\count370
-\c@citetotal=\count371
-\c@multicitecount=\count372
-\c@multicitetotal=\count373
-\c@instcount=\count374
-\c@maxnames=\count375
-\c@minnames=\count376
-\c@maxitems=\count377
-\c@minitems=\count378
-\c@citecounter=\count379
-\c@maxcitecounter=\count380
-\c@savedcitecounter=\count381
-\c@uniquelist=\count382
-\c@uniquename=\count383
-\c@refsection=\count384
-\c@refsegment=\count385
-\c@maxextratitle=\count386
-\c@maxextratitleyear=\count387
-\c@maxextraname=\count388
-\c@maxextradate=\count389
-\c@maxextraalpha=\count390
-\c@abbrvpenalty=\count391
-\c@highnamepenalty=\count392
-\c@lownamepenalty=\count393
-\c@maxparens=\count394
-\c@parenlevel=\count395
-\blx@tempcnta=\count396
-\blx@tempcntb=\count397
-\blx@tempcntc=\count398
-\c@blx@maxsection=\count399
-\blx@maxsegment@0=\count400
-\blx@notetype=\count401
-\blx@parenlevel@text=\count402
-\blx@parenlevel@foot=\count403
-\blx@sectionciteorder@0=\count404
-\blx@sectionciteorderinternal@0=\count405
-\blx@entrysetcounter=\count406
-\blx@biblioinstance=\count407
+\c@tabx@nest=\count351
+\c@listtotal=\count352
+\c@listcount=\count353
+\c@liststart=\count354
+\c@liststop=\count355
+\c@citecount=\count356
+\c@citetotal=\count357
+\c@multicitecount=\count358
+\c@multicitetotal=\count359
+\c@instcount=\count360
+\c@maxnames=\count361
+\c@minnames=\count362
+\c@maxitems=\count363
+\c@minitems=\count364
+\c@citecounter=\count365
+\c@maxcitecounter=\count366
+\c@savedcitecounter=\count367
+\c@uniquelist=\count368
+\c@uniquename=\count369
+\c@refsection=\count370
+\c@refsegment=\count371
+\c@maxextratitle=\count372
+\c@maxextratitleyear=\count373
+\c@maxextraname=\count374
+\c@maxextradate=\count375
+\c@maxextraalpha=\count376
+\c@abbrvpenalty=\count377
+\c@highnamepenalty=\count378
+\c@lownamepenalty=\count379
+\c@maxparens=\count380
+\c@parenlevel=\count381
+\blx@tempcnta=\count382
+\blx@tempcntb=\count383
+\blx@tempcntc=\count384
+\c@blx@maxsection=\count385
+\blx@maxsegment@0=\count386
+\blx@notetype=\count387
+\blx@parenlevel@text=\count388
+\blx@parenlevel@foot=\count389
+\blx@sectionciteorder@0=\count390
+\blx@sectionciteorderinternal@0=\count391
+\blx@entrysetcounter=\count392
+\blx@biblioinstance=\count393
 \labelnumberwidth=\skip78
 \labelalphawidth=\skip79
 \biblabelsep=\skip80
@@ -972,12 +801,12 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \bibinitsep=\skip83
 \bibparsep=\skip84
 \bibhang=\skip85
-\blx@bcfin=\read2
+\blx@bcfin=\read3
 \blx@bcfout=\write3
-\blx@langwohyphens=\language79
-\c@mincomprange=\count408
-\c@maxcomprange=\count409
-\c@mincompwidth=\count410
+\blx@langwohyphens=\language80
+\c@mincomprange=\count394
+\c@maxcomprange=\count395
+\c@mincompwidth=\count396
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -988,74 +817,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count411
-\c@savedafterword=\count412
-\c@annotator=\count413
-\c@savedannotator=\count414
-\c@author=\count415
-\c@savedauthor=\count416
-\c@bookauthor=\count417
-\c@savedbookauthor=\count418
-\c@commentator=\count419
-\c@savedcommentator=\count420
-\c@editor=\count421
-\c@savededitor=\count422
-\c@editora=\count423
-\c@savededitora=\count424
-\c@editorb=\count425
-\c@savededitorb=\count426
-\c@editorc=\count427
-\c@savededitorc=\count428
-\c@foreword=\count429
-\c@savedforeword=\count430
-\c@holder=\count431
-\c@savedholder=\count432
-\c@introduction=\count433
-\c@savedintroduction=\count434
-\c@namea=\count435
-\c@savednamea=\count436
-\c@nameb=\count437
-\c@savednameb=\count438
-\c@namec=\count439
-\c@savednamec=\count440
-\c@translator=\count441
-\c@savedtranslator=\count442
-\c@shortauthor=\count443
-\c@savedshortauthor=\count444
-\c@shorteditor=\count445
-\c@savedshorteditor=\count446
-\c@labelname=\count447
-\c@savedlabelname=\count448
-\c@institution=\count449
-\c@savedinstitution=\count450
-\c@lista=\count451
-\c@savedlista=\count452
-\c@listb=\count453
-\c@savedlistb=\count454
-\c@listc=\count455
-\c@savedlistc=\count456
-\c@listd=\count457
-\c@savedlistd=\count458
-\c@liste=\count459
-\c@savedliste=\count460
-\c@listf=\count461
-\c@savedlistf=\count462
-\c@location=\count463
-\c@savedlocation=\count464
-\c@organization=\count465
-\c@savedorganization=\count466
-\c@origlocation=\count467
-\c@savedoriglocation=\count468
-\c@origpublisher=\count469
-\c@savedorigpublisher=\count470
-\c@publisher=\count471
-\c@savedpublisher=\count472
-\c@language=\count473
-\c@savedlanguage=\count474
-\c@origlanguage=\count475
-\c@savedoriglanguage=\count476
-\c@pageref=\count477
-\c@savedpageref=\count478
+\c@afterword=\count397
+\c@savedafterword=\count398
+\c@annotator=\count399
+\c@savedannotator=\count400
+\c@author=\count401
+\c@savedauthor=\count402
+\c@bookauthor=\count403
+\c@savedbookauthor=\count404
+\c@commentator=\count405
+\c@savedcommentator=\count406
+\c@editor=\count407
+\c@savededitor=\count408
+\c@editora=\count409
+\c@savededitora=\count410
+\c@editorb=\count411
+\c@savededitorb=\count412
+\c@editorc=\count413
+\c@savededitorc=\count414
+\c@foreword=\count415
+\c@savedforeword=\count416
+\c@holder=\count417
+\c@savedholder=\count418
+\c@introduction=\count419
+\c@savedintroduction=\count420
+\c@namea=\count421
+\c@savednamea=\count422
+\c@nameb=\count423
+\c@savednameb=\count424
+\c@namec=\count425
+\c@savednamec=\count426
+\c@translator=\count427
+\c@savedtranslator=\count428
+\c@shortauthor=\count429
+\c@savedshortauthor=\count430
+\c@shorteditor=\count431
+\c@savedshorteditor=\count432
+\c@labelname=\count433
+\c@savedlabelname=\count434
+\c@institution=\count435
+\c@savedinstitution=\count436
+\c@lista=\count437
+\c@savedlista=\count438
+\c@listb=\count439
+\c@savedlistb=\count440
+\c@listc=\count441
+\c@savedlistc=\count442
+\c@listd=\count443
+\c@savedlistd=\count444
+\c@liste=\count445
+\c@savedliste=\count446
+\c@listf=\count447
+\c@savedlistf=\count448
+\c@location=\count449
+\c@savedlocation=\count450
+\c@organization=\count451
+\c@savedorganization=\count452
+\c@origlocation=\count453
+\c@savedoriglocation=\count454
+\c@origpublisher=\count455
+\c@savedorigpublisher=\count456
+\c@publisher=\count457
+\c@savedpublisher=\count458
+\c@language=\count459
+\c@savedlanguage=\count460
+\c@origlanguage=\count461
+\c@savedoriglanguage=\count462
+\c@pageref=\count463
+\c@savedpageref=\count464
 \shorthandwidth=\skip86
 \shortjournalwidth=\skip87
 \shortserieswidth=\skip88
@@ -1085,19 +914,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
-\c@textcitecount=\count479
-\c@textcitetotal=\count480
-\c@textcitemaxnames=\count481
-\c@biburlbigbreakpenalty=\count482
-\c@biburlbreakpenalty=\count483
-\c@biburlnumpenalty=\count484
-\c@biburlucpenalty=\count485
-\c@biburllcpenalty=\count486
+\c@textcitecount=\count465
+\c@textcitetotal=\count466
+\c@textcitemaxnames=\count467
+\c@biburlbigbreakpenalty=\count468
+\c@biburlbreakpenalty=\count469
+\c@biburlnumpenalty=\count470
+\c@biburlucpenalty=\count471
+\c@biburllcpenalty=\count472
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count487
+\c@smartand=\count473
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -1130,8 +959,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
 bx
 File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count488
-\c@bbx:relatedtotal=\count489
+\c@bbx:relatedcount=\count474
+\c@bbx:relatedtotal=\count475
 ))))
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
@@ -1139,10 +968,10 @@ Package biblatex Info: ... file 'numeric-comp.cbx' found.
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-co
 mp.cbx
 File: numeric-comp.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count490
-\c@cbx@tempcntb=\count491
-\c@cbx@tempcntc=\count492
-\c@cbx@tempcntd=\count493
+\c@cbx@tempcnta=\count476
+\c@cbx@tempcntb=\count477
+\c@cbx@tempcntc=\count478
+\c@cbx@tempcntd=\count479
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1164,6 +993,19 @@ File: biblatex.cfg
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
+
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-07-04 L3 programming layer (loader) 
+
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xet
+ex.def
+File: l3backend-xetex.def 2022-07-01 L3 backend support: XeTeX
+\g__graphics_track_int=\count480
+\l__pdf_internal_box=\box117
+\g__pdf_backend_object_int=\count481
+\g__pdf_backend_annotation_int=\count482
+\g__pdf_backend_link_int=\count483
+))
 Package biblatex Info: ... and expl3
 (biblatex)             2022-07-04 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
@@ -1171,315 +1013,301 @@ Package biblatex Info: ... and expl3
 
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3
 .sty
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+Package: xparse 2022-06-22 L3 Experimental document command parser
+)
 Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
 
 )))
-\@quotelevel=\count494
-\@quotereset=\count495
- (main.aux
 
-! Critical Package polyglossia Error: The language * is not loaded. You should
-(polyglossia)                         load it.
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
 
-Type <return> to continue.
- ...                                              
-                                                  
-l.21 \selectlanguage *{*}
-                         
+\@quotelevel=\count484
+\@quotereset=\count485
+(main.aux)
+\openout1 = `main.aux'.
 
-LaTeX does not know anything more about this error, sorry.
-
-Try typing <return> to proceed.
-If that doesn't work, type X <return> to quit.
-
-Reading the current file 'main' will stop.
-
-
-
-! Package polyglossia Error: Unknown direction .
-
-See the polyglossia package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 \selectlanguage *{*}
-                         
-This error message was generated by an \errmessage
-command, so I can't give any explicit help.
-Pretend that you're Hercule Poirot: Examine all clues,
-and deduce the truth by order and method.
-
-! Undefined control sequence.
-<argument> \setnonlatin 
-                        
-l.21 \selectlanguage *{*}
-                         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! Package etoolbox Error: \rmfamily undefined.
-
-See the etoolbox package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 \selectlanguage *{*}
-                         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package etoolbox Error: \sffamily undefined.
-
-See the etoolbox package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 \selectlanguage *{*}
-                         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package etoolbox Error: \ttfamily undefined.
-
-See the etoolbox package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 \selectlanguage *{*}
-                         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Package polyglossia Warning: \@font@rm  is not defined on input line 21.
-
-
-Package polyglossia Warning: \@language  is not defined on input line 21.
-
-
-! Package polyglossia Error: language  is not loaded. Please load it before usi
-ng it..
-
-See the polyglossia package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 \selectlanguage *{*}
-                         
-(That was another \errmessage.)
-
-
-! Package polyglossia Error: Could not retrieve key frenchspacing for language 
-"".
-
-See the polyglossia package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 \selectlanguage *{*}
-                         
-(That was another \errmessage.)
-
-The property list \polyglossia@langsetup contains the pairs (without outer
-braces):
->  {latex/script}  =>  {latin}
->  {latex/lcscript}  =>  {latin}
->  {latex/scripttag}  =>  {}
->  {latex/language}  =>  {Latex}
->  {latex/langtag}  =>  {ENG}
->  {latex/bcp47}  =>  {}
->  {latex/hyphennames}  =>  {english}
->  {latex/direction}  =>  {LR}
->  {latex/hyphenmins}  =>  {2,3}
->  {latex/frenchspacing}  =>  {false}
->  {latex/indentfirst}  =>  {false}
->  {latex/fontsetup}  =>  {true}
->  {latex/envname}  =>  {latex}
->  {latex/babelname}  =>  {latex}
->  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
->  {latex/DefineCommandsCmd}  =>  {use_none:n}
->  {german/script}  =>  {latin}
->  {german/lcscript}  =>  {latin}
->  {german/scripttag}  =>  {}
->  {german/language}  =>  {German}
->  {german/langtag}  =>  {DEU}
->  {german/bcp47}  =>  {de-DE}
->  {german/hyphennames}  =>  {}
->  {german/direction}  =>  {LR}
->  {german/hyphenmins}  =>  {2,2}
->  {german/frenchspacing}  =>  {true}
->  {german/indentfirst}  =>  {false}
->  {german/fontsetup}  =>  {true}
->  {german/envname}  =>  {german}
->  {german/babelname}  =>  {ngerman}
->  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}
->  {german/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}
->  {english/script}  =>  {latin}
->  {english/lcscript}  =>  {latin}
->  {english/scripttag}  =>  {}
->  {english/language}  =>  {English}
->  {english/langtag}  =>  {ENG}
->  {english/bcp47}  =>  {en-US}
->  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
->  {english/direction}  =>  {LR}
->  {english/hyphenmins}  =>  {2,3}
->  {english/frenchspacing}  =>  {false}
->  {english/indentfirst}  =>  {false}
->  {english/fontsetup}  =>  {true}
->  {english/envname}  =>  {english}
->  {english/babelname}  =>  {american}
->  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
->  {english/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
-<recently read> }
-                 
-l.21 \selectlanguage *{*}
-                         
-
-
-! Package polyglossia Error: Could not retrieve key direction for language "".
-
-See the polyglossia package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 \selectlanguage *{*}
-                         
-(That was another \errmessage.)
-
-The property list \polyglossia@langsetup contains the pairs (without outer
-braces):
->  {latex/script}  =>  {latin}
->  {latex/lcscript}  =>  {latin}
->  {latex/scripttag}  =>  {}
->  {latex/language}  =>  {Latex}
->  {latex/langtag}  =>  {ENG}
->  {latex/bcp47}  =>  {}
->  {latex/hyphennames}  =>  {english}
->  {latex/direction}  =>  {LR}
->  {latex/hyphenmins}  =>  {2,3}
->  {latex/frenchspacing}  =>  {false}
->  {latex/indentfirst}  =>  {false}
->  {latex/fontsetup}  =>  {true}
->  {latex/envname}  =>  {latex}
->  {latex/babelname}  =>  {latex}
->  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
->  {latex/DefineCommandsCmd}  =>  {use_none:n}
->  {german/script}  =>  {latin}
->  {german/lcscript}  =>  {latin}
->  {german/scripttag}  =>  {}
->  {german/language}  =>  {German}
->  {german/langtag}  =>  {DEU}
->  {german/bcp47}  =>  {de-DE}
->  {german/hyphennames}  =>  {}
->  {german/direction}  =>  {LR}
->  {german/hyphenmins}  =>  {2,2}
->  {german/frenchspacing}  =>  {true}
->  {german/indentfirst}  =>  {false}
->  {german/fontsetup}  =>  {true}
->  {german/envname}  =>  {german}
->  {german/babelname}  =>  {ngerman}
->  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}
->  {german/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}
->  {english/script}  =>  {latin}
->  {english/lcscript}  =>  {latin}
->  {english/scripttag}  =>  {}
->  {english/language}  =>  {English}
->  {english/langtag}  =>  {ENG}
->  {english/bcp47}  =>  {en-US}
->  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
->  {english/direction}  =>  {LR}
->  {english/hyphenmins}  =>  {2,3}
->  {english/frenchspacing}  =>  {false}
->  {english/indentfirst}  =>  {false}
->  {english/fontsetup}  =>  {true}
->  {english/envname}  =>  {english}
->  {english/babelname}  =>  {american}
->  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
->  {english/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
-<recently read> }
-                 
-l.21 \selectlanguage *{*}
-                         
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 \selectlanguage *{*}
-                         
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package polyglossia Error: Could not retrieve key indentfirst for language ""
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
 .
 
-See the polyglossia package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 \selectlanguage *{*}
-                         
-(That was another \errmessage.)
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+\c@lstlisting=\count486
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
 
-The property list \polyglossia@langsetup contains the pairs (without outer
-braces):
->  {latex/script}  =>  {latin}
->  {latex/lcscript}  =>  {latin}
->  {latex/scripttag}  =>  {}
->  {latex/language}  =>  {Latex}
->  {latex/langtag}  =>  {ENG}
->  {latex/bcp47}  =>  {}
->  {latex/hyphennames}  =>  {english}
->  {latex/direction}  =>  {LR}
->  {latex/hyphenmins}  =>  {2,3}
->  {latex/frenchspacing}  =>  {false}
->  {latex/indentfirst}  =>  {false}
->  {latex/fontsetup}  =>  {true}
->  {latex/envname}  =>  {latex}
->  {latex/babelname}  =>  {latex}
->  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
->  {latex/DefineCommandsCmd}  =>  {use_none:n}
->  {german/script}  =>  {latin}
->  {german/lcscript}  =>  {latin}
->  {german/scripttag}  =>  {}
->  {german/language}  =>  {German}
->  {german/langtag}  =>  {DEU}
->  {german/bcp47}  =>  {de-DE}
->  {german/hyphennames}  =>  {}
->  {german/direction}  =>  {LR}
->  {german/hyphenmins}  =>  {2,2}
->  {german/frenchspacing}  =>  {true}
->  {german/indentfirst}  =>  {false}
->  {german/fontsetup}  =>  {true}
->  {german/envname}  =>  {german}
->  {german/babelname}  =>  {ngerman}
->  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}
->  {german/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}
->  {english/script}  =>  {latin}
->  {english/lcscript}  =>  {latin}
->  {english/scripttag}  =>  {}
->  {english/language}  =>  {English}
->  {english/langtag}  =>  {ENG}
->  {english/bcp47}  =>  {en-US}
->  {e
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24417pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 717.00955pt, 56.9055pt)
+* \paperwidth=597.50793pt
+* \paperheight=845.04694pt
+* \textwidth=455.24417pt
+* \textheight=717.00955pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.53812pt
+* \headheight=17.0pt
+* \headsep=20.40001pt
+* \topskip=11.0pt
+* \footskip=47.6pt
+* \marginparwidth=59.7508pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
+slations-basic-dictionary-german.trsl
+File: translations-basic-dictionary-german.trsl (german translation file `trans
+lations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `german'. on input line 4.
+Package hyperref Info: Link coloring ON on input line 4.
+ (main.out) (main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+Class scrartcl Info: loading recommended package `bookmark'.
+(scrartcl)           Using `bookmark' together with `hyperref' is recommended,
+(scrartcl)           because of handling of possible bookmark level gaps.
+(scrartcl)           You can avoid loading `bookmark' with KOMA-Script option
+(scrartcl)           `bookmarkpackage=false' before \begin{document} and
+(scrartcl)           you can avoid this message adding:
+(scrartcl)             \usepackage{bookmark}
+(scrartcl)           before \begin{document} on input line 4.
+
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-dvipdfm.de
+f
+File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
+\BKM@id=\count487
+))
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
+File: german.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (main.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                turtlebot3burger001
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
+Package biblatex Info: Reference section=0 on input line 4.
+Package biblatex Info: Reference segment=0 on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
+ (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
+
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+[1
+
+] (abstract.tex) [2] (main.toc [3])
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+ [4] (Inhalt/Einleitung.tex)
+(Inhalt/Grundlagen.tex [5]
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
+
+ []
+
+[6]
+File: Bilder/rqt_graph_simplified.png Graphic file (type bmp)
+<Bilder/rqt_graph_simplified.png>
+ [7]
+File: Bilder/network_turtlebot.png Graphic file (type bmp)
+<Bilder/network_turtlebot.png>
+ [8]
+File: Bilder/turtlebot_3_burger.png Graphic file (type bmp)
+<Bilder/turtlebot_3_burger.png>
+
+
+LaTeX Warning: Reference `turtle3burger' on page 9 undefined on input line 121.
+
+
+File: Bilder/lds_small.png Graphic file (type bmp)
+<Bilder/lds_small.png>
+[9] [10] [11]
+
+LaTeX Warning: Reference `pic:pathfinding_procedure_1' on page 12 undefined on 
+input line 191.
+
+
+LaTeX Warning: Reference `pic:pathfinding_procedure_4' on page 12 undefined on 
+input line 191.
+
+File: Bilder/pathfinding_procedure_1.png Graphic file (type bmp)
+<Bilder/pathfinding_procedure_1.png>
+File: Bilder/pathfinding_procedure_2.png Graphic file (type bmp)
+<Bilder/pathfinding_procedure_2.png>
+File: Bilder/pathfinding_procedure_3.png Graphic file (type bmp)
+<Bilder/pathfinding_procedure_3.png>
+File: Bilder/pathfinding_procedure_4.png Graphic file (type bmp)
+<Bilder/pathfinding_procedure_4.png>
+File: Bilder/pathfinding_tiefe1.png Graphic file (type bmp)
+<Bilder/pathfinding_tiefe1.png>
+File: Bilder/pathfinding_tiefe2.png Graphic file (type bmp)
+<Bilder/pathfinding_tiefe2.png>
+[12]
+File: Bilder/pathfinding_laby_heu.png Graphic file (type bmp)
+<Bilder/pathfinding_laby_heu.png>
+File: Bilder/costmap_overlayed.png Graphic file (type bmp)
+<Bilder/costmap_overlayed.png>
+ [13]
+File: Bilder/costmap_pathplanning.png Graphic file (type bmp)
+<Bilder/costmap_pathplanning.png>
+File: Bilder/overview_move_base.png Graphic file (type bmp)
+<Bilder/overview_move_base.png>
+) (Inhalt/Loesungskonzept.tex
+File: Bilder/overview_concept.png Graphic file (type bmp)
+<Bilder/overview_concept.png>
+ [14]) (Inhalt/Bedienung.tex [15])
+(Inhalt/Kartierung.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+File: Bilder/virtualmap_world_gazebo.png Graphic file (type bmp)
+<Bilder/virtualmap_world_gazebo.png>
+
+Overfull \hbox (8.51566pt too wide) in paragraph at lines 14--15
+ [][] 
+ []
+
+File: Bilder/virtualmap_world_rviz.png Graphic file (type bmp)
+<Bilder/virtualmap_world_rviz.png>
+
+Overfull \hbox (35.78847pt too wide) in paragraph at lines 21--22
+ [][] 
+ []
+
+
+Underfull \hbox (badness 2556) in paragraph at lines 22--22
+[][]|\TU/lmss/m/n/8 Momentaufnahme der des LiDAR-
+ []
+
+[16]
+File: Bilder/mapping_smpl_1.png Graphic file (type bmp)
+<Bilder/mapping_smpl_1.png>
+File: Bilder/mapping_smpl_2.png Graphic file (type bmp)
+<Bilder/mapping_smpl_2.png>
+
+Underfull \hbox (badness 3428) in paragraph at lines 60--60
+[][]|\TU/lmss/m/n/8 Kartieruing nach erster Bewegung
+ []
+
+File: Bilder/mapping_smpl_3.png Graphic file (type bmp)
+<Bilder/mapping_smpl_3.png>
+File: Bilder/mapping_smpl_4.png Graphic file (type bmp)
+<Bilder/mapping_smpl_4.png>
+[17]
+Overfull \hbox (11.2296pt too wide) in paragraph at lines 86--87
+[][][][][][][][][][][][][][] 
+ []
+
+[18]) (Inhalt/Lokalisierung.tex
+File: Bilder/costmap_monte_carlo_example.png Graphic file (type bmp)
+<Bilder/costmap_monte_carlo_example.png>
+File: Bilder/amcl_clear_pointcloud.png Graphic file (type bmp)
+<Bilder/amcl_clear_pointcloud.png>
+ [19]) (Inhalt/Navigation.tex
+File: Bilder/rviz_navgoal_small.png Graphic file (type bmp)
+<Bilder/rviz_navgoal_small.png>
+ [20] [21]
+File: Bilder/rosgraph_frontier_full.png Graphic file (type bmp)
+<Bilder/rosgraph_frontier_full.png>
+
+Overfull \hbox (6.80563pt too wide) in paragraph at lines 33--34
+ [][] 
+ []
+
+[22]) (Inhalt/Zusammenfassung.tex [23
+
+
+]) [24] (main.aux)
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ )
+(\end occurred inside a group at level 4)
+
+### simple group (level 4) entered at line 188 ({)
+### simple group (level 3) entered at line 176 ({)
+### simple group (level 2) entered at line 145 ({)
+### simple group (level 1) entered at line 4 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 29734 strings out of 410654
+ 589076 string characters out of 2816299
+ 1453925 words of memory out of 3000000
+ 50409 multiletter control sequences out of 15000+600000
+ 479216 words of font info for 87 fonts, out of 8000000 for 9000
+ 1350 hyphenation exceptions out of 8191
+ 108i,8n,106p,10601b,5698s stack positions out of 10000i,1000n,20000p,200000b,80000s
+
+Output written on main.pdf (24 pages).

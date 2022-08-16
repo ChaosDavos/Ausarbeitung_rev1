@@ -19,6 +19,18 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{Quigley09}{inproceedings}{}
+      \list{location}{1}{%
+        {Kobe, Japan}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. of the IEEE Intl. Conf. on Robotics and Automation (ICRA) Workshop on Open Source Robotics}
+      \field{month}{5}
+      \field{title}{ROS: an open-source Robot Operating System}
+      \field{year}{2009}
+    \endentry
     \entry{rqtgraphsimplified1}{online}{}
       \name{author}{1}{}{%
         {{hash=881d1f9247b98361a93bdd6a6e42eece}{%
@@ -26,7 +38,7 @@
            familyi={R\bibinitperiod}}}%
       }
       \list{language}{1}{%
-        {Deutsch}%
+        {English}%
       }
       \strng{namehash}{881d1f9247b98361a93bdd6a6e42eece}
       \strng{fullhash}{881d1f9247b98361a93bdd6a6e42eece}
@@ -34,53 +46,21 @@
       \strng{authorbibnamehash}{881d1f9247b98361a93bdd6a6e42eece}
       \strng{authornamehash}{881d1f9247b98361a93bdd6a6e42eece}
       \strng{authorfullhash}{881d1f9247b98361a93bdd6a6e42eece}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{subtitle}{Ein vereinfachter Graph, mit RQT-Graph visualisiert}
-      \field{title}{rqt-graph Ausschnitt}
+      \field{subtitle}{Visualize and Debug Your ROS Graph}
+      \field{title}{rqt graph}
       \field{urlday}{22}
       \field{urlmonth}{5}
       \field{urlyear}{2022}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://roboticsbackend.com/wp-content/uploads/2019/07/rqt_graph_two_nodes_one_topic.png
+      \verb https://roboticsbackend.com/rqt-graph-visualize-and-debug-your-ros-graph/
       \endverb
       \verb{url}
-      \verb https://roboticsbackend.com/wp-content/uploads/2019/07/rqt_graph_two_nodes_one_topic.png
-      \endverb
-    \endentry
-    \entry{turtlebot3burger001}{online}{}
-      \name{author}{1}{}{%
-        {{hash=03bcb621822189e57cd9448bfe5c8744}{%
-           family={Robotis},
-           familyi={R\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {Deutsch}%
-      }
-      \strng{namehash}{03bcb621822189e57cd9448bfe5c8744}
-      \strng{fullhash}{03bcb621822189e57cd9448bfe5c8744}
-      \strng{bibnamehash}{03bcb621822189e57cd9448bfe5c8744}
-      \strng{authorbibnamehash}{03bcb621822189e57cd9448bfe5c8744}
-      \strng{authornamehash}{03bcb621822189e57cd9448bfe5c8744}
-      \strng{authorfullhash}{03bcb621822189e57cd9448bfe5c8744}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{subtitle}{ROBOTIS TurtleBot 3 Burger Plattform Roboter INTL 901-0118-200}
-      \field{title}{Turtlebot 3}
-      \field{urlday}{13}
-      \field{urlmonth}{3}
-      \field{urlyear}{2022}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.zerodna.de/media/image/product/6437/md/robotis-turtlebot-3-burger-plattform-roboter-intl-901-0118-200.jpg
-      \endverb
-      \verb{url}
-      \verb https://www.zerodna.de/media/image/product/6437/md/robotis-turtlebot-3-burger-plattform-roboter-intl-901-0118-200.jpg
+      \verb https://roboticsbackend.com/rqt-graph-visualize-and-debug-your-ros-graph/
       \endverb
     \endentry
     \entry{movebasenodeoverview}{online}{}
@@ -98,25 +78,25 @@
       \strng{authorbibnamehash}{6d2ee5676b068857db569005a9c6205a}
       \strng{authornamehash}{6d2ee5676b068857db569005a9c6205a}
       \strng{authorfullhash}{6d2ee5676b068857db569005a9c6205a}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{subtitle}{Überblick über die Funktion der move-base-Node}
-      \field{title}{move-base-Node}
+      \field{subtitle}{Setup and Configuration of the Navigation Stack on a Robot}
+      \field{title}{Robot Setup}
       \field{urlday}{26}
       \field{urlmonth}{5}
       \field{urlyear}{2022}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb http://wiki.ros.org/navigation/Tutorials/RobotSetup?action=AttachFile&do=view&target=overview.png
+      \verb http://wiki.ros.org/navigation/Tutorials/RobotSetup
       \endverb
       \verb{url}
-      \verb http://wiki.ros.org/navigation/Tutorials/RobotSetup?action=AttachFile&do=view&target=overview.png
+      \verb http://wiki.ros.org/navigation/Tutorials/RobotSetup
       \endverb
     \endentry
   \enddatalist
-  \missing{Programmierung: Ansammmlung von Funktionen (eines Aufgabenbereiches)}
+  \missing{turtlebot3burger001}
 \endrefsection
 \endinput
 

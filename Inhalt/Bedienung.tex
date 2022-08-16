@@ -5,15 +5,16 @@
 	
 	\subsection{Steuerung}
 	{
-		Sowohl die Tastatur, als auch der Controller werden an einen PC angeschlossen. Auf die Eingabe der Tastatur kann sofort zugegriffen werden, jedoch ist im Falle des Controllers mehr Aufwand nötig. Im Falle des Ubuntu-Betriebssystems werden die Eingaben eines Controllers in eine Datei geschrieben, auf welche zugegriffen werden kann. Dabei handelt es sich im Falle des Logitech Controllers um die Datei ``\emph{/dev/input/js0}``.
+		Sowohl die Tastatur, als auch der Controller werden an einen PC angeschlossen. Auf die Eingabe der Tastatur kann sofort zugegriffen werden, jedoch ist im Falle des Controllers mehr Aufwand nötig. Im Falle des Ubuntu-Betriebssystems werden die Eingaben eines Controllers in eine Gerätedatei geschrieben, auf welche lesend zugegriffen werden kann. Dabei handelt es sich im Falle des Logitech Controllers um die Datei ``\emph{/dev/input/js0}``.
 	}
 
 	\subsection{Implementierung}
-	{ Um die Daten der Eingabegeräte zu verarbeiten und schlussendlich als Bewegungsrichtung auszugeben, wird die \emph{teleop-Node} verwendet.Im Falle der Tastatur als Eingabegerät kann mit den Befehl 
+	{ 
+		Um die Daten der Eingabegeräte zu verarbeiten und schlussendlich als Bewegungsrichtung auszugeben, wird der \emph{teleop-Node} verwendet. Im Falle der Tastatur als Eingabegerät kann mit den Befehl 
 		\begin{lstlisting}
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 		\end{lstlisting}
-	die dazugehörige Node starten. Danach kann der Roboter mit den Tasten W,A,X,D nach vorne, links,  hinten oder rechts beschleunigt werden. Die Taste S setzt die Geschwindigkeit in bestimmte Richtungen zurück.
+	den dazugehörige Node starten. Danach kann der Roboter mit den Tasten W,A,X,D nach vorne, links,  hinten oder rechts beschleunigt werden. Die Taste S setzt die Geschwindigkeit in bestimmte Richtungen zurück.
 	\newline
 	Im Falle des Controllers ist ein andere Befehl nötig, welcher mehr Informationen übergibt. Hierbei wird sowohl die Datei, welche die Eingaben des Controllers beinhaltet, sowie die Tastenkonfiguration des Controllers übermittelt.
 	\begin{lstlisting}
