@@ -24,20 +24,20 @@
 \contentsline {subsubsection}{\numberline {2.5.1}Definition}{10}{subsubsection.2.5.1}%
 \contentsline {subsubsection}{\numberline {2.5.2}Anwendung in der heutigen Welt}{10}{subsubsection.2.5.2}%
 \contentsline {subsubsection}{\numberline {2.5.3}Algorithmen zur Umsetzung}{10}{subsubsection.2.5.3}%
-\contentsline {section}{\numberline {3}Lösungskonzept}{12}{section.3}%
-\contentsline {section}{\numberline {4}Bedienung}{13}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Steuerung}{13}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Implementierung}{13}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Kartierung}{14}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Kartierung mit Hilfe des LiDAR-Sensors}{14}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Implementierung}{16}{subsection.5.2}%
-\contentsline {section}{\numberline {6}Lokalisierung}{16}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Positionierung auf einer Karte}{16}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Implementierung}{17}{subsection.6.2}%
-\contentsline {section}{\numberline {7}Navigation}{17}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Costmap}{17}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Wegplanung}{17}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Implementierung der Wegfindung}{18}{subsection.7.3}%
+\contentsline {subsubsection}{\numberline {2.5.4}Costmap}{12}{subsubsection.2.5.4}%
+\contentsline {subsubsection}{\numberline {2.5.5}Wegplanung}{13}{subsubsection.2.5.5}%
+\contentsline {subsection}{\numberline {2.6}Implementierung der Wegfindung}{13}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Lösungskonzept}{14}{section.3}%
+\contentsline {section}{\numberline {4}Bedienung}{15}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Steuerung}{15}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Implementierung}{15}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Kartierung}{16}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Kartierung mit Hilfe des LiDAR-Sensors}{16}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Implementierung}{18}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Lokalisierung}{18}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Positionierung auf einer Karte}{18}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Implementierung}{19}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Navigation}{19}{section.7}%
 \contentsline {section}{\numberline {8}Zusammenfassung}{20}{section.8}%
 \contentsline {section}{\nonumberline Literatur}{20}{section*.19}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
